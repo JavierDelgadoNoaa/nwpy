@@ -1,0 +1,4 @@
+&iosetup
+  infilename='diag_conv_ges.200508011200',
+  outfilename='results_conv_ges.200508011200',
+/

@@ -1,0 +1,306 @@
+current fit of gps data in fractional difference
+                              ptop  1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0   50.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 01     gps     740 0000 count       0      0      3     35     48     32     19     22     27     38     62     418
+ o-g 01     gps     740 0000  bias    0.00   0.00   0.96  -0.91  -0.05   0.09   0.06  -0.03  -0.16  -0.04  -0.17   -0.25
+ o-g 01     gps     740 0000   rms    0.00   0.00   1.01   1.28   0.51   0.27   0.17   0.12   0.24   0.28   0.43    0.64
+ o-g 01     gps     740 0000  cpen    0.00   0.00   0.90   0.78   0.16   0.16   0.18   0.14   0.73   1.33   1.19    0.86
+ o-g 01     gps     740 0000 qcpen    0.00   0.00   0.90   0.78   0.16   0.16   0.18   0.14   0.73   1.33   1.19    0.86
+ o-g 01     gps     743 0000 count       0      4      5     13     32     22     12     16     18     25     42     278
+ o-g 01     gps     743 0000  bias    0.00  -1.12  -0.27   0.69   0.31  -0.44  -0.40  -0.08  -0.26   0.17  -0.18   -0.19
+ o-g 01     gps     743 0000   rms    0.00   1.22   0.38   1.44   1.04   0.59   0.47   0.12   0.39   0.28   1.02    0.82
+ o-g 01     gps     743 0000  cpen    0.00   1.82   0.13   1.63   0.64   0.65   1.11   0.07   0.56   0.81   1.51    0.76
+ o-g 01     gps     743 0000 qcpen    0.00   1.82   0.13   1.63   0.64   0.65   1.11   0.07   0.56   0.81   1.51    0.76
+ o-g 01             all      count       0      4      8     48     80     54     31     38     45     63    104     696
+ o-g 01             all       bias    0.00  -1.12   0.19  -0.47   0.09  -0.13  -0.12  -0.05  -0.20   0.04  -0.18   -0.22
+ o-g 01             all        rms    0.00   1.22   0.69   1.32   0.76   0.43   0.32   0.12   0.31   0.28   0.73    0.72
+ o-g 01             all       cpen    0.00   1.82   0.42   1.01   0.35   0.36   0.54   0.11   0.66   1.12   1.32    0.82
+ o-g 01             all      qcpen    0.00   1.82   0.42   1.01   0.35   0.36   0.54   0.11   0.66   1.12   1.32    0.82
+ o-g 01     gps rej 740 0000 count       2     10     12      2      0      0      0      0      0      0      0     482
+ o-g 01     gps rej 740 0000  bias   -0.06  -1.13  -1.48  -3.46   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.01
+ o-g 01     gps rej 740 0000   rms    0.51   2.48   2.69   3.46   0.00   0.00   0.00   0.00   0.00   0.00   0.00   13.66
+ o-g 01     gps rej 740 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01     gps rej 740 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01     gps rej 743 0000 count       0      0      3     12      0      0      0      0      0      0      0     322
+ o-g 01     gps rej 743 0000  bias    0.00   0.00   2.76   4.92   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -3.77
+ o-g 01     gps rej 743 0000   rms    0.00   0.00   3.45   5.17   0.00   0.00   0.00   0.00   0.00   0.00   0.00   13.78
+ o-g 01     gps rej 743 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01     gps rej 743 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01         rej all      count       2     10     15     14      0      0      0      0      0      0      0     804
+ o-g 01         rej all       bias   -0.06  -1.13  -0.63   3.72   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -3.92
+ o-g 01         rej all        rms    0.51   2.48   2.86   4.96   0.00   0.00   0.00   0.00   0.00   0.00   0.00   13.71
+ o-g 01         rej all       cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01         rej all      qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ num(g) =      0 at lev    1 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    2 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    3 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    4 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    5 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev    6 pen,qcpen,cpen,cqcpen =   2.6048       2.6048       2.6048       2.6048    
+ num(g) =      0 at lev    7 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    8 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    9 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   10 pen,qcpen,cpen,cqcpen =   2.5254       2.5254       2.5254       2.5254    
+ num(g) =      0 at lev   11 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   12 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   13 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   14 pen,qcpen,cpen,cqcpen =   2.0555       2.0555       2.0555       2.0555    
+ num(g) =      0 at lev   15 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   16 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   17 pen,qcpen,cpen,cqcpen =  0.92584E-01  0.92584E-01  0.92584E-01  0.92584E-01
+ num(g) =      0 at lev   18 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   19 pen,qcpen,cpen,cqcpen =  0.33594E-02  0.33594E-02  0.33594E-02  0.33594E-02
+ num(g) =      1 at lev   20 pen,qcpen,cpen,cqcpen =  0.82768E-03  0.82768E-03  0.82768E-03  0.82768E-03
+ num(g) =      0 at lev   21 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   22 pen,qcpen,cpen,cqcpen =  0.72113E-01  0.72113E-01  0.72113E-01  0.72113E-01
+ num(g) =      2 at lev   23 pen,qcpen,cpen,cqcpen =   1.1638       1.1638      0.58190      0.58190    
+ num(g) =      4 at lev   24 pen,qcpen,cpen,cqcpen =   2.1961       2.1961      0.54904      0.54904    
+ num(g) =      4 at lev   25 pen,qcpen,cpen,cqcpen =   1.1387       1.1387      0.28467      0.28467    
+ num(g) =      5 at lev   26 pen,qcpen,cpen,cqcpen =   6.7542       6.7542       1.3508       1.3508    
+ num(g) =      8 at lev   27 pen,qcpen,cpen,cqcpen =   5.8483       5.8483      0.73104      0.73104    
+ num(g) =      7 at lev   28 pen,qcpen,cpen,cqcpen =   4.4050       4.4050      0.62929      0.62929    
+ num(g) =      8 at lev   29 pen,qcpen,cpen,cqcpen =   4.5208       4.5208      0.56509      0.56509    
+ num(g) =      8 at lev   30 pen,qcpen,cpen,cqcpen =   7.8917       7.8917      0.98646      0.98646    
+ num(g) =     10 at lev   31 pen,qcpen,cpen,cqcpen =   22.641       22.641       2.2641       2.2641    
+ num(g) =     11 at lev   32 pen,qcpen,cpen,cqcpen =   11.026       11.026       1.0023       1.0023    
+ num(g) =     13 at lev   33 pen,qcpen,cpen,cqcpen =   5.6158       5.6158      0.43198      0.43198    
+ num(g) =     13 at lev   34 pen,qcpen,cpen,cqcpen =   2.2000       2.2000      0.16923      0.16923    
+ num(g) =     14 at lev   35 pen,qcpen,cpen,cqcpen =  0.50916      0.50916      0.36368E-01  0.36368E-01
+ num(g) =     15 at lev   36 pen,qcpen,cpen,cqcpen =   1.1171       1.1171      0.74472E-01  0.74472E-01
+ num(g) =     15 at lev   37 pen,qcpen,cpen,cqcpen =   4.5145       4.5145      0.30097      0.30097    
+ num(g) =     15 at lev   38 pen,qcpen,cpen,cqcpen =   5.1072       5.1072      0.34048      0.34048    
+ num(g) =     16 at lev   39 pen,qcpen,cpen,cqcpen =   5.7647       5.7647      0.36029      0.36029    
+ num(g) =     16 at lev   40 pen,qcpen,cpen,cqcpen =   6.4768       6.4768      0.40480      0.40480    
+ num(g) =     17 at lev   41 pen,qcpen,cpen,cqcpen =   9.3962       9.3962      0.55272      0.55272    
+ num(g) =     17 at lev   42 pen,qcpen,cpen,cqcpen =   7.6157       7.6157      0.44798      0.44798    
+ num(g) =     16 at lev   43 pen,qcpen,cpen,cqcpen =   3.2241       3.2241      0.20151      0.20151    
+ num(g) =     16 at lev   44 pen,qcpen,cpen,cqcpen =  0.52575      0.52575      0.32859E-01  0.32859E-01
+ num(g) =     15 at lev   45 pen,qcpen,cpen,cqcpen =   2.0143       2.0143      0.13429      0.13429    
+ num(g) =     15 at lev   46 pen,qcpen,cpen,cqcpen =   8.3963       8.3963      0.55975      0.55975    
+ num(g) =     14 at lev   47 pen,qcpen,cpen,cqcpen =   13.520       13.520      0.96569      0.96569    
+ num(g) =     14 at lev   48 pen,qcpen,cpen,cqcpen =   13.696       13.696      0.97829      0.97829    
+ num(g) =     16 at lev   49 pen,qcpen,cpen,cqcpen =   15.043       15.043      0.94017      0.94017    
+ num(g) =     15 at lev   50 pen,qcpen,cpen,cqcpen =   5.9183       5.9183      0.39455      0.39455    
+ num(g) =     16 at lev   51 pen,qcpen,cpen,cqcpen =   25.911       25.911       1.6194       1.6194    
+ num(g) =     19 at lev   52 pen,qcpen,cpen,cqcpen =   30.311       30.311       1.5953       1.5953    
+ num(g) =     20 at lev   53 pen,qcpen,cpen,cqcpen =   30.620       30.620       1.5310       1.5310    
+ num(g) =     23 at lev   54 pen,qcpen,cpen,cqcpen =   19.446       19.446      0.84548      0.84548    
+ num(g) =     28 at lev   55 pen,qcpen,cpen,cqcpen =   34.350       34.350       1.2268       1.2268    
+ num(g) =     34 at lev   56 pen,qcpen,cpen,cqcpen =   56.852       56.852       1.6721       1.6721    
+ num(g) =     45 at lev   57 pen,qcpen,cpen,cqcpen =   44.177       44.177      0.98172      0.98172    
+ num(g) =     59 at lev   58 pen,qcpen,cpen,cqcpen =   21.679       21.679      0.36744      0.36744    
+ num(g) =    102 at lev   59 pen,qcpen,cpen,cqcpen =   56.351       56.351      0.55246      0.55246    
+ num(g) =      4 at lev   60 pen,qcpen,cpen,cqcpen =   65.017       65.017       16.254       16.254    
+ number of   gps obs that failed gross test =     0 nonlin qc test =     0
+   number of gps obs failed stats qc in NH =     34
+   number of gps obs failed stats qc in SH =      0
+   number of gps obs failed stats qc in TR =     16
+ number of   gps obs extrapolated above top sigma layer=     672
+           number extrapolated below bottom sigma layer=       0
+ type gps_ref jiter   1 nread   10066 nkeep    1500 num     696
+ type gps_ref pen=  0.570309362649132595E+03 qcpen=  0.570309362649132595E+03 r=  0.819410     qcr=  0.819410    
+current fit of gps data in fractional difference
+                              ptop  1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0   50.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 02     gps     740 0000 count       0      0      2     35     48     31     20     22     27     37     62     417
+ o-g 02     gps     740 0000  bias    0.00   0.00  -0.03  -0.16  -0.06   0.01   0.06   0.04   0.04   0.04   0.00   -0.03
+ o-g 02     gps     740 0000   rms    0.00   0.00   0.18   0.33   0.29   0.13   0.10   0.07   0.05   0.09   0.21    0.25
+ o-g 02     gps     740 0000  cpen    0.00   0.00   0.03   0.05   0.05   0.04   0.06   0.04   0.02   0.11   0.12    0.09
+ o-g 02     gps     740 0000 qcpen    0.00   0.00   0.03   0.05   0.05   0.04   0.06   0.04   0.02   0.11   0.12    0.09
+ o-g 02     gps     743 0000 count       0      4      5     14     32     22     12     16     18     25     42     280
+ o-g 02     gps     743 0000  bias    0.00   0.01  -0.01   0.16  -0.13  -0.16  -0.20   0.08  -0.05   0.07  -0.12   -0.07
+ o-g 02     gps     743 0000   rms    0.00   0.04   0.09   0.62   0.30   0.24   0.26   0.11   0.14   0.20   0.65    0.43
+ o-g 02     gps     743 0000  cpen    0.00   0.00   0.01   0.21   0.07   0.13   0.34   0.05   0.08   0.18   0.37    0.27
+ o-g 02     gps     743 0000 qcpen    0.00   0.00   0.01   0.21   0.07   0.13   0.34   0.05   0.08   0.18   0.37    0.27
+ o-g 02             all      count       0      4      7     49     80     53     32     38     45     62    104     697
+ o-g 02             all       bias    0.00   0.01  -0.02  -0.07  -0.09  -0.06  -0.03   0.06   0.00   0.05  -0.05   -0.05
+ o-g 02             all        rms    0.00   0.04   0.12   0.43   0.30   0.19   0.18   0.09   0.10   0.15   0.44    0.34
+ o-g 02             all       cpen    0.00   0.00   0.01   0.09   0.06   0.08   0.17   0.05   0.04   0.14   0.22    0.16
+ o-g 02             all      qcpen    0.00   0.00   0.01   0.09   0.06   0.08   0.17   0.05   0.04   0.14   0.22    0.16
+ o-g 02     gps rej 740 0000 count       2     10     13      2      0      0      0      0      0      0      0     483
+ o-g 02     gps rej 740 0000  bias    0.70  -0.16  -2.70  -1.96   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.31
+ o-g 02     gps rej 740 0000   rms    1.18   2.74   3.69   1.97   0.00   0.00   0.00   0.00   0.00   0.00   0.00   14.43
+ o-g 02     gps rej 740 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02     gps rej 740 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02     gps rej 743 0000 count       0      0      3     11      0      0      0      0      0      0      0     320
+ o-g 02     gps rej 743 0000  bias    0.00   0.00  -4.70   1.98   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.30
+ o-g 02     gps rej 743 0000   rms    0.00   0.00   5.43   2.91   0.00   0.00   0.00   0.00   0.00   0.00   0.00   14.68
+ o-g 02     gps rej 743 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02     gps rej 743 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02         rej all      count       2     10     16     13      0      0      0      0      0      0      0     803
+ o-g 02         rej all       bias    0.70  -0.16  -3.08   1.37   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.31
+ o-g 02         rej all        rms    1.18   2.74   4.07   2.78   0.00   0.00   0.00   0.00   0.00   0.00   0.00   14.53
+ o-g 02         rej all       cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02         rej all      qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ num(g) =      0 at lev    1 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    2 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    3 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    4 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    5 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev    6 pen,qcpen,cpen,cqcpen =  0.93358E-03  0.93358E-03  0.93358E-03  0.93358E-03
+ num(g) =      0 at lev    7 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    8 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    9 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   10 pen,qcpen,cpen,cqcpen =  0.92838E-04  0.92838E-04  0.92838E-04  0.92838E-04
+ num(g) =      0 at lev   11 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   12 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   13 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   14 pen,qcpen,cpen,cqcpen =  0.24327E-04  0.24327E-04  0.24327E-04  0.24327E-04
+ num(g) =      0 at lev   15 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   16 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   17 pen,qcpen,cpen,cqcpen =  0.73983E-02  0.73983E-02  0.73983E-02  0.73983E-02
+ num(g) =      0 at lev   18 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   19 pen,qcpen,cpen,cqcpen =  0.13348E-02  0.13348E-02  0.13348E-02  0.13348E-02
+ num(g) =      1 at lev   20 pen,qcpen,cpen,cqcpen =  0.22238E-03  0.22238E-03  0.22238E-03  0.22238E-03
+ num(g) =      0 at lev   21 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   22 pen,qcpen,cpen,cqcpen =  0.24798E-01  0.24798E-01  0.24798E-01  0.24798E-01
+ num(g) =      2 at lev   23 pen,qcpen,cpen,cqcpen =  0.31075E-01  0.31075E-01  0.15538E-01  0.15538E-01
+ num(g) =      3 at lev   24 pen,qcpen,cpen,cqcpen =  0.64509E-01  0.64509E-01  0.21503E-01  0.21503E-01
+ num(g) =      4 at lev   25 pen,qcpen,cpen,cqcpen =  0.96311E-01  0.96311E-01  0.24078E-01  0.24078E-01
+ num(g) =      6 at lev   26 pen,qcpen,cpen,cqcpen =  0.85579E-01  0.85579E-01  0.14263E-01  0.14263E-01
+ num(g) =      7 at lev   27 pen,qcpen,cpen,cqcpen =  0.16178      0.16178      0.23112E-01  0.23112E-01
+ num(g) =      7 at lev   28 pen,qcpen,cpen,cqcpen =  0.76910E-01  0.76910E-01  0.10987E-01  0.10987E-01
+ num(g) =      8 at lev   29 pen,qcpen,cpen,cqcpen =  0.17680      0.17680      0.22100E-01  0.22100E-01
+ num(g) =      8 at lev   30 pen,qcpen,cpen,cqcpen =  0.39638      0.39638      0.49548E-01  0.49548E-01
+ num(g) =     11 at lev   31 pen,qcpen,cpen,cqcpen =   3.8809       3.8809      0.35281      0.35281    
+ num(g) =     11 at lev   32 pen,qcpen,cpen,cqcpen =  0.67666      0.67666      0.61515E-01  0.61515E-01
+ num(g) =     13 at lev   33 pen,qcpen,cpen,cqcpen =   1.4718       1.4718      0.11322      0.11322    
+ num(g) =     13 at lev   34 pen,qcpen,cpen,cqcpen =  0.79283      0.79283      0.60987E-01  0.60987E-01
+ num(g) =     14 at lev   35 pen,qcpen,cpen,cqcpen =  0.45012      0.45012      0.32152E-01  0.32152E-01
+ num(g) =     15 at lev   36 pen,qcpen,cpen,cqcpen =  0.28213      0.28213      0.18808E-01  0.18808E-01
+ num(g) =     15 at lev   37 pen,qcpen,cpen,cqcpen =   1.2698       1.2698      0.84655E-01  0.84655E-01
+ num(g) =     15 at lev   38 pen,qcpen,cpen,cqcpen =  0.73642      0.73642      0.49095E-01  0.49095E-01
+ num(g) =     16 at lev   39 pen,qcpen,cpen,cqcpen =   1.3288       1.3288      0.83049E-01  0.83049E-01
+ num(g) =     16 at lev   40 pen,qcpen,cpen,cqcpen =   1.5656       1.5656      0.97851E-01  0.97851E-01
+ num(g) =     17 at lev   41 pen,qcpen,cpen,cqcpen =   3.4905       3.4905      0.20532      0.20532    
+ num(g) =     17 at lev   42 pen,qcpen,cpen,cqcpen =   1.9627       1.9627      0.11546      0.11546    
+ num(g) =     16 at lev   43 pen,qcpen,cpen,cqcpen =  0.60757      0.60757      0.37973E-01  0.37973E-01
+ num(g) =     16 at lev   44 pen,qcpen,cpen,cqcpen =  0.87801      0.87801      0.54876E-01  0.54876E-01
+ num(g) =     15 at lev   45 pen,qcpen,cpen,cqcpen =  0.50916      0.50916      0.33944E-01  0.33944E-01
+ num(g) =     14 at lev   46 pen,qcpen,cpen,cqcpen =  0.46546      0.46546      0.33247E-01  0.33247E-01
+ num(g) =     15 at lev   47 pen,qcpen,cpen,cqcpen =  0.72054      0.72054      0.48036E-01  0.48036E-01
+ num(g) =     14 at lev   48 pen,qcpen,cpen,cqcpen =  0.68487      0.68487      0.48919E-01  0.48919E-01
+ num(g) =     16 at lev   49 pen,qcpen,cpen,cqcpen =   2.2628       2.2628      0.14143      0.14143    
+ num(g) =     15 at lev   50 pen,qcpen,cpen,cqcpen =   1.7895       1.7895      0.11930      0.11930    
+ num(g) =     16 at lev   51 pen,qcpen,cpen,cqcpen =   2.9885       2.9885      0.18678      0.18678    
+ num(g) =     19 at lev   52 pen,qcpen,cpen,cqcpen =   3.3947       3.3947      0.17867      0.17867    
+ num(g) =     20 at lev   53 pen,qcpen,cpen,cqcpen =   5.9719       5.9719      0.29859      0.29859    
+ num(g) =     23 at lev   54 pen,qcpen,cpen,cqcpen =   3.6857       3.6857      0.16025      0.16025    
+ num(g) =     28 at lev   55 pen,qcpen,cpen,cqcpen =   7.3357       7.3357      0.26199      0.26199    
+ num(g) =     34 at lev   56 pen,qcpen,cpen,cqcpen =   4.5083       4.5083      0.13260      0.13260    
+ num(g) =     44 at lev   57 pen,qcpen,cpen,cqcpen =   2.3901       2.3901      0.54321E-01  0.54321E-01
+ num(g) =     61 at lev   58 pen,qcpen,cpen,cqcpen =   6.5347       6.5347      0.10713      0.10713    
+ num(g) =    102 at lev   59 pen,qcpen,cpen,cqcpen =   8.8268       8.8268      0.86537E-01  0.86537E-01
+ num(g) =      4 at lev   60 pen,qcpen,cpen,cqcpen =   38.667       38.667       9.6667       9.6667    
+ number of   gps obs that failed gross test =     0 nonlin qc test =     0
+   number of gps obs failed stats qc in NH =     33
+   number of gps obs failed stats qc in SH =      0
+   number of gps obs failed stats qc in TR =     16
+ number of   gps obs extrapolated above top sigma layer=     667
+           number extrapolated below bottom sigma layer=       0
+ type gps_ref jiter   2 nread   10066 nkeep    1500 num     697
+ type gps_ref pen=  0.111253615920997390E+03 qcpen=  0.111253615920997390E+03 r=  0.159618     qcr=  0.159618    
+current fit of gps data in fractional difference
+                              ptop  1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0   50.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 03     gps     740 0000 count       0      0      1     35     48     31     20     22     27     37     62     416
+ o-g 03     gps     740 0000  bias    0.00   0.00  -0.15  -0.17  -0.07   0.01   0.07   0.06   0.06   0.05  -0.01   -0.05
+ o-g 03     gps     740 0000   rms    0.00   0.00   0.15   0.33   0.30   0.13   0.10   0.08   0.06   0.10   0.21    0.26
+ o-g 03     gps     740 0000  cpen    0.00   0.00   0.02   0.05   0.06   0.04   0.07   0.06   0.04   0.13   0.11    0.09
+ o-g 03     gps     740 0000 qcpen    0.00   0.00   0.02   0.05   0.06   0.04   0.07   0.06   0.04   0.13   0.11    0.09
+ o-g 03     gps     743 0000 count       0      4      5     14     32     22     12     16     18     25     42     280
+ o-g 03     gps     743 0000  bias    0.00  -0.01  -0.01   0.13  -0.15  -0.14  -0.17   0.10  -0.04   0.08  -0.10   -0.05
+ o-g 03     gps     743 0000   rms    0.00   0.04   0.08   0.51   0.31   0.23   0.24   0.13   0.15   0.21   0.64    0.40
+ o-g 03     gps     743 0000  cpen    0.00   0.00   0.01   0.14   0.07   0.11   0.28   0.07   0.09   0.20   0.36    0.23
+ o-g 03     gps     743 0000 qcpen    0.00   0.00   0.01   0.14   0.07   0.11   0.28   0.07   0.09   0.20   0.36    0.23
+ o-g 03             all      count       0      4      6     49     80     53     32     38     45     62    104     696
+ o-g 03             all       bias    0.00  -0.01  -0.03  -0.08  -0.10  -0.05  -0.02   0.08   0.02   0.06  -0.04   -0.05
+ o-g 03             all        rms    0.00   0.04   0.10   0.39   0.30   0.18   0.17   0.10   0.11   0.15   0.44    0.32
+ o-g 03             all       cpen    0.00   0.00   0.01   0.07   0.06   0.07   0.15   0.07   0.06   0.16   0.21    0.15
+ o-g 03             all      qcpen    0.00   0.00   0.01   0.07   0.06   0.07   0.15   0.07   0.06   0.16   0.21    0.15
+ o-g 03     gps rej 740 0000 count       2     10     14      2      0      0      0      0      0      0      0     484
+ o-g 03     gps rej 740 0000  bias    0.65   0.37  -1.52  -1.49   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.28
+ o-g 03     gps rej 740 0000   rms    1.05   2.22   3.00   1.49   0.00   0.00   0.00   0.00   0.00   0.00   0.00   14.47
+ o-g 03     gps rej 740 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03     gps rej 740 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03     gps rej 743 0000 count       0      0      3     11      0      0      0      0      0      0      0     320
+ o-g 03     gps rej 743 0000  bias    0.00   0.00  -6.13   0.92   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.34
+ o-g 03     gps rej 743 0000   rms    0.00   0.00   6.66   2.66   0.00   0.00   0.00   0.00   0.00   0.00   0.00   14.65
+ o-g 03     gps rej 743 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03     gps rej 743 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03         rej all      count       2     10     17     13      0      0      0      0      0      0      0     804
+ o-g 03         rej all       bias    0.65   0.37  -2.33   0.55   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.30
+ o-g 03         rej all        rms    1.05   2.22   3.90   2.52   0.00   0.00   0.00   0.00   0.00   0.00   0.00   14.54
+ o-g 03         rej all       cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03         rej all      qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ num(g) =      0 at lev    1 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    2 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    3 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    4 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    5 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev    6 pen,qcpen,cpen,cqcpen =  0.44763E-02  0.44763E-02  0.44763E-02  0.44763E-02
+ num(g) =      0 at lev    7 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    8 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev    9 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   10 pen,qcpen,cpen,cqcpen =  0.13165E-03  0.13165E-03  0.13165E-03  0.13165E-03
+ num(g) =      0 at lev   11 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   12 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   13 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   14 pen,qcpen,cpen,cqcpen =  0.23111E-03  0.23111E-03  0.23111E-03  0.23111E-03
+ num(g) =      0 at lev   15 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      0 at lev   16 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   17 pen,qcpen,cpen,cqcpen =  0.25046E-02  0.25046E-02  0.25046E-02  0.25046E-02
+ num(g) =      0 at lev   18 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   19 pen,qcpen,cpen,cqcpen =  0.20551E-02  0.20551E-02  0.20551E-02  0.20551E-02
+ num(g) =      1 at lev   20 pen,qcpen,cpen,cqcpen =  0.57339E-03  0.57339E-03  0.57339E-03  0.57339E-03
+ num(g) =      0 at lev   21 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(g) =      1 at lev   22 pen,qcpen,cpen,cqcpen =  0.15285E-01  0.15285E-01  0.15285E-01  0.15285E-01
+ num(g) =      1 at lev   23 pen,qcpen,cpen,cqcpen =  0.15073E-01  0.15073E-01  0.15073E-01  0.15073E-01
+ num(g) =      3 at lev   24 pen,qcpen,cpen,cqcpen =  0.56227E-01  0.56227E-01  0.18742E-01  0.18742E-01
+ num(g) =      4 at lev   25 pen,qcpen,cpen,cqcpen =  0.79748E-01  0.79748E-01  0.19937E-01  0.19937E-01
+ num(g) =      6 at lev   26 pen,qcpen,cpen,cqcpen =  0.61525E-01  0.61525E-01  0.10254E-01  0.10254E-01
+ num(g) =      7 at lev   27 pen,qcpen,cpen,cqcpen =  0.13897      0.13897      0.19854E-01  0.19854E-01
+ num(g) =      7 at lev   28 pen,qcpen,cpen,cqcpen =  0.69262E-01  0.69262E-01  0.98945E-02  0.98945E-02
+ num(g) =      8 at lev   29 pen,qcpen,cpen,cqcpen =  0.16880      0.16880      0.21100E-01  0.21100E-01
+ num(g) =      8 at lev   30 pen,qcpen,cpen,cqcpen =  0.40993      0.40993      0.51241E-01  0.51241E-01
+ num(g) =     11 at lev   31 pen,qcpen,cpen,cqcpen =   2.9490       2.9490      0.26809      0.26809    
+ num(g) =     11 at lev   32 pen,qcpen,cpen,cqcpen =  0.70216      0.70216      0.63833E-01  0.63833E-01
+ num(g) =     13 at lev   33 pen,qcpen,cpen,cqcpen =   1.5463       1.5463      0.11894      0.11894    
+ num(g) =     13 at lev   34 pen,qcpen,cpen,cqcpen =  0.81844      0.81844      0.62957E-01  0.62957E-01
+ num(g) =     14 at lev   35 pen,qcpen,cpen,cqcpen =  0.48023      0.48023      0.34302E-01  0.34302E-01
+ num(g) =     15 at lev   36 pen,qcpen,cpen,cqcpen =  0.29728      0.29728      0.19819E-01  0.19819E-01
+ num(g) =     15 at lev   37 pen,qcpen,cpen,cqcpen =   1.2663       1.2663      0.84422E-01  0.84422E-01
+ num(g) =     15 at lev   38 pen,qcpen,cpen,cqcpen =  0.73634      0.73634      0.49090E-01  0.49090E-01
+ num(g) =     16 at lev   39 pen,qcpen,cpen,cqcpen =   1.2532       1.2532      0.78324E-01  0.78324E-01
+ num(g) =     16 at lev   40 pen,qcpen,cpen,cqcpen =   1.3235       1.3235      0.82721E-01  0.82721E-01
+ num(g) =     17 at lev   41 pen,qcpen,cpen,cqcpen =   3.0784       3.0784      0.18108      0.18108    
+ num(g) =     17 at lev   42 pen,qcpen,cpen,cqcpen =   1.7473       1.7473      0.10278      0.10278    
+ num(g) =     16 at lev   43 pen,qcpen,cpen,cqcpen =  0.84204      0.84204      0.52627E-01  0.52627E-01
+ num(g) =     16 at lev   44 pen,qcpen,cpen,cqcpen =   1.3338       1.3338      0.83365E-01  0.83365E-01
+ num(g) =     15 at lev   45 pen,qcpen,cpen,cqcpen =  0.82604      0.82604      0.55069E-01  0.55069E-01
+ num(g) =     15 at lev   46 pen,qcpen,cpen,cqcpen =  0.65670      0.65670      0.43780E-01  0.43780E-01
+ num(g) =     14 at lev   47 pen,qcpen,cpen,cqcpen =  0.96526      0.96526      0.68947E-01  0.68947E-01
+ num(g) =     14 at lev   48 pen,qcpen,cpen,cqcpen =  0.83542      0.83542      0.59673E-01  0.59673E-01
+ num(g) =     16 at lev   49 pen,qcpen,cpen,cqcpen =   2.5765       2.5765      0.16103      0.16103    
+ num(g) =     15 at lev   50 pen,qcpen,cpen,cqcpen =   1.7934       1.7934      0.11956      0.11956    
+ num(g) =     16 at lev   51 pen,qcpen,cpen,cqcpen =   3.5700       3.5700      0.22312      0.22312    
+ num(g) =     19 at lev   52 pen,qcpen,cpen,cqcpen =   3.6152       3.6152      0.19027      0.19027    
+ num(g) =     20 at lev   53 pen,qcpen,cpen,cqcpen =   5.8361       5.8361      0.29181      0.29181    
+ num(g) =     23 at lev   54 pen,qcpen,cpen,cqcpen =   3.5436       3.5436      0.15407      0.15407    
+ num(g) =     28 at lev   55 pen,qcpen,cpen,cqcpen =   7.0684       7.0684      0.25244      0.25244    
+ num(g) =     34 at lev   56 pen,qcpen,cpen,cqcpen =   4.6903       4.6903      0.13795      0.13795    
+ num(g) =     44 at lev   57 pen,qcpen,cpen,cqcpen =   2.4580       2.4580      0.55863E-01  0.55863E-01
+ num(g) =     61 at lev   58 pen,qcpen,cpen,cqcpen =   6.0790       6.0790      0.99656E-01  0.99656E-01
+ num(g) =    103 at lev   59 pen,qcpen,cpen,cqcpen =   8.7953       8.7953      0.85391E-01  0.85391E-01
+ num(g) =      3 at lev   60 pen,qcpen,cpen,cqcpen =   29.543       29.543       9.8477       9.8477    
+ number of   gps obs that failed gross test =     0 nonlin qc test =     0
+   number of gps obs failed stats qc in NH =     34
+   number of gps obs failed stats qc in SH =      0
+   number of gps obs failed stats qc in TR =     16
+ number of   gps obs extrapolated above top sigma layer=     667
+           number extrapolated below bottom sigma layer=       0
+ type gps_ref jiter   3 nread   10066 nkeep    1500 num     696
+ type gps_ref pen=  0.102251443891817161E+03 qcpen=  0.102251443891817161E+03 r=  0.146913     qcr=  0.146913    

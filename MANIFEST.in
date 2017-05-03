@@ -1,0 +1,6 @@
+global-include *.py
+#recursive-include conf *
+recursive-include nwpy/io/specdata/conf *
+recursive-include nwpy/io/metcomp/nps/etc *txt
+recursive-include src *f90 *zsh 
+recursive-include etc *sh

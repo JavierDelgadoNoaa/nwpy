@@ -1,0 +1,4 @@
+&iosetup
+  infilename='diag_amsua_n18_anl.200508010600',
+  outfilename='results_amsua_n18_anl.200508010600',
+/

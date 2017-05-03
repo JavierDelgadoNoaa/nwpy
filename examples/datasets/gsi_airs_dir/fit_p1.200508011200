@@ -1,0 +1,51 @@
+current fit of surface pressure data, ranges in mb
+--------------------------------------------------
+ pressure levels (hPa)=   0.0 2000.0
+     it     obs    type stype    count      bias       rms      cpen     qcpen
+ o-g 01      ps     120 0000         7   -0.0558    0.4156    0.2218    0.2218
+ o-g 01      ps     180 0000       418   -0.3669    0.7617    1.1372    1.1333
+ o-g 01      ps     181 0000        54   -0.4263    0.8095    0.1795    0.1794
+ o-g 01      ps     187 0000       210   -0.0654    0.6062    0.1861    0.1859
+ o-g 01             all            689   -0.2765    0.7191    0.7629    0.7605
+ o-g 01      ps mon 180 0000         6   -1.3547    1.4406    7.2088    7.1023
+ o-g 01      ps mon 181 0000        14    0.2097    0.2481    0.0930    0.0930
+ o-g 01      ps mon 183 0000        11   -0.3229    0.8374    0.0000    0.0000
+ o-g 01      ps mon 187 0000        14   -0.0758    0.7837    2.0276    2.0267
+ o-g 01         mon all             45   -0.2179    0.8114    1.6209    1.6064
+ number of  psfc obs that failed gross test =     0 nonlin qc test =     0
+ type    psfc jiter   1 nread  357050 nkeep     734 num     689
+ type    psfc pen=  0.525668455624961098E+03 qcpen=  0.523999639895273276E+03 r=  0.762944     qcr=  0.760522    
+current fit of surface pressure data, ranges in mb
+--------------------------------------------------
+ pressure levels (hPa)=   0.0 2000.0
+     it     obs    type stype    count      bias       rms      cpen     qcpen
+ o-g 02      ps     120 0000         7    0.2360    0.2920    0.0295    0.0295
+ o-g 02      ps     180 0000       418   -0.0972    0.5088    0.3685    0.3685
+ o-g 02      ps     181 0000        54   -0.3419    0.7406    0.1579    0.1578
+ o-g 02      ps     187 0000       210   -0.0232    0.5622    0.1593    0.1593
+ o-g 02             all            689   -0.0904    0.5452    0.2848    0.2847
+ o-g 02      ps mon 180 0000         6   -1.1411    1.2306    5.2584    5.2470
+ o-g 02      ps mon 181 0000        14    0.2903    0.3148    0.1487    0.1487
+ o-g 02      ps mon 183 0000        11   -0.3624    0.7798    0.0000    0.0000
+ o-g 02      ps mon 187 0000        14   -0.1426    0.7811    2.0254    2.0244
+ o-g 02         mon all             45   -0.1948    0.7558    1.3775    1.3757
+ number of  psfc obs that failed gross test =     0 nonlin qc test =     0
+ type    psfc jiter   2 nread  357050 nkeep     734 num     689
+ type    psfc pen=  0.196239040277176031E+03 qcpen=  0.196191797031347335E+03 r=  0.284817     qcr=  0.284749    
+current fit of surface pressure data, ranges in mb
+--------------------------------------------------
+ pressure levels (hPa)=   0.0 2000.0
+     it     obs    type stype    count      bias       rms      cpen     qcpen
+ o-g 03      ps     120 0000         7    0.2191    0.2820    0.0264    0.0264
+ o-g 03      ps     180 0000       418   -0.1104    0.5110    0.3761    0.3760
+ o-g 03      ps     181 0000        54   -0.3546    0.7443    0.1558    0.1558
+ o-g 03      ps     187 0000       210   -0.0267    0.5614    0.1584    0.1583
+ o-g 03             all            689   -0.1007    0.5465    0.2889    0.2889
+ o-g 03      ps mon 180 0000         6   -1.1446    1.2302    5.2545    5.2422
+ o-g 03      ps mon 181 0000        14    0.2762    0.3030    0.1374    0.1374
+ o-g 03      ps mon 183 0000        11   -0.3489    0.7815    0.0000    0.0000
+ o-g 03      ps mon 187 0000        14   -0.1414    0.7816    2.0293    2.0283
+ o-g 03         mon all             45   -0.1960    0.7548    1.3747    1.3727
+ number of  psfc obs that failed gross test =     0 nonlin qc test =     0
+ type    psfc jiter   3 nread  357050 nkeep     734 num     689
+ type    psfc pen=  0.199074806400560448E+03 qcpen=  0.199026555417643010E+03 r=  0.288933     qcr=  0.288863    

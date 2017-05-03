@@ -1,0 +1,318 @@
+current fit of q data, units in per-cent of guess q-sat
+                              ptop  1000.0  950.0  900.0  850.0  800.0  700.0  600.0  500.0  400.0  300.0    0.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  950.0  900.0  850.0  800.0  700.0  600.0  500.0  400.0  300.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 01       q     180 0000 count      91      0      0      0      0      0      0      0      0      0      0      91
+ o-g 01       q     180 0000  bias   -2.08   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -2.08
+ o-g 01       q     180 0000   rms    3.42   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.42
+ o-g 01       q     180 0000  cpen    0.70   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.70
+ o-g 01       q     180 0000 qcpen    0.70   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.70
+ o-g 01             all      count      91      0      0      0      0      0      0      0      0      0      0      91
+ o-g 01             all       bias   -2.08   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -2.08
+ o-g 01             all        rms    3.42   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.42
+ o-g 01             all       cpen    0.70   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.70
+ o-g 01             all      qcpen    0.70   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.70
+ o-g 01       q mon 180 0000 count       3      0      0      0      0      0      0      0      0      0      0       3
+ o-g 01       q mon 180 0000  bias   -4.64   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.64
+ o-g 01       q mon 180 0000   rms    4.64   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    4.64
+ o-g 01       q mon 180 0000  cpen    1.71   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.71
+ o-g 01       q mon 180 0000 qcpen    1.71   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.71
+ o-g 01       q mon 181 0000 count      26      0      0      0      0      0      0      0      0      0      0      26
+ o-g 01       q mon 181 0000  bias   -2.62   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -2.62
+ o-g 01       q mon 181 0000   rms    3.98   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.98
+ o-g 01       q mon 181 0000  cpen    0.30   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.30
+ o-g 01       q mon 181 0000 qcpen    0.30   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.30
+ o-g 01       q mon 183 0000 count       9      2      0      0      0      0      0      0      0      0      0      11
+ o-g 01       q mon 183 0000  bias   -4.18 -12.44   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -5.68
+ o-g 01       q mon 183 0000   rms    4.83  12.50   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    6.89
+ o-g 01       q mon 183 0000  cpen    0.87   0.55   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.81
+ o-g 01       q mon 183 0000 qcpen    0.87   0.55   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.81
+ o-g 01       q mon 187 0000 count     126      5      0      0      0      0      0      0      0      0      0     131
+ o-g 01       q mon 187 0000  bias   -4.10 -13.07   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.44
+ o-g 01       q mon 187 0000   rms    4.89  13.16   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    5.44
+ o-g 01       q mon 187 0000  cpen    1.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.98
+ o-g 01       q mon 187 0000 qcpen    1.01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.97
+ o-g 01         mon all      count     164      7      0      0      0      0      0      0      0      0      0     171
+ o-g 01         mon all       bias   -3.88 -12.89   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.25
+ o-g 01         mon all        rms    4.75  12.97   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    5.34
+ o-g 01         mon all       cpen    0.91   0.16   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.88
+ o-g 01         mon all      qcpen    0.90   0.16   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.87
+ num(q) =     91 at lev    1 pen,qcpen,cpen,cqcpen =   64.117       64.100      0.70458      0.70439    
+ num(q) =      0 at lev    2 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    3 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    4 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    5 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    6 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    7 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    8 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    9 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   10 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   11 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   12 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   13 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   14 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   15 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   16 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   17 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   18 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   19 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   20 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   21 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   22 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   23 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   24 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   25 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   26 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   27 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   28 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   29 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   30 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   31 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   32 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   33 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   34 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   35 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   36 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   37 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   38 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   39 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   40 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   41 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   42 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   43 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   44 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   45 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   46 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   47 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   48 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   49 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   50 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   51 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   52 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   53 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   54 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   55 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   56 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   57 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   58 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   59 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   60 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+    (scaled as precent of guess specific humidity)
+ number of     q obs that failed gross test =     0 nonlin qc test =     0
+ grsmlt=    5.0 number of bad     q obs=      0.
+ number of     q obs extrapolated above top sigma layer=       0
+           number extrapolated below bottom sigma layer=      57
+ type       q jiter   1 nread    1095 nkeep     262 num      91
+ type       q pen=  0.641170279714402653E+02 qcpen=  0.640995144510391697E+02 r=  0.704583     qcr=  0.704390    
+current fit of q data, units in per-cent of guess q-sat
+                              ptop  1000.0  950.0  900.0  850.0  800.0  700.0  600.0  500.0  400.0  300.0    0.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  950.0  900.0  850.0  800.0  700.0  600.0  500.0  400.0  300.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 02       q     180 0000 count      91      0      0      0      0      0      0      0      0      0      0      91
+ o-g 02       q     180 0000  bias   -0.08   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.08
+ o-g 02       q     180 0000   rms    0.65   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.65
+ o-g 02       q     180 0000  cpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 02       q     180 0000 qcpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 02             all      count      91      0      0      0      0      0      0      0      0      0      0      91
+ o-g 02             all       bias   -0.08   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.08
+ o-g 02             all        rms    0.65   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.65
+ o-g 02             all       cpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 02             all      qcpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 02       q mon 180 0000 count       3      0      0      0      0      0      0      0      0      0      0       3
+ o-g 02       q mon 180 0000  bias   -6.36   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -6.36
+ o-g 02       q mon 180 0000   rms    6.51   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    6.51
+ o-g 02       q mon 180 0000  cpen    3.31   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.31
+ o-g 02       q mon 180 0000 qcpen    3.31   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.31
+ o-g 02       q mon 181 0000 count      26      0      0      0      0      0      0      0      0      0      0      26
+ o-g 02       q mon 181 0000  bias   -1.68   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -1.68
+ o-g 02       q mon 181 0000   rms    3.54   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.54
+ o-g 02       q mon 181 0000  cpen    0.28   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.28
+ o-g 02       q mon 181 0000 qcpen    0.28   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.28
+ o-g 02       q mon 183 0000 count       9      2      0      0      0      0      0      0      0      0      0      11
+ o-g 02       q mon 183 0000  bias   -3.65 -12.06   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -5.18
+ o-g 02       q mon 183 0000   rms    4.43  12.13   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    6.54
+ o-g 02       q mon 183 0000  cpen    0.75   0.54   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.71
+ o-g 02       q mon 183 0000 qcpen    0.75   0.54   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.71
+ o-g 02       q mon 187 0000 count     126      5      0      0      0      0      0      0      0      0      0     131
+ o-g 02       q mon 187 0000  bias   -3.90 -12.69   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.23
+ o-g 02       q mon 187 0000   rms    5.37  12.78   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    5.83
+ o-g 02       q mon 187 0000  cpen    0.89   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.86
+ o-g 02       q mon 187 0000 qcpen    0.89   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.86
+ o-g 02         mon all      count     164      7      0      0      0      0      0      0      0      0      0     171
+ o-g 02         mon all       bias   -3.58 -12.51   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -3.94
+ o-g 02         mon all        rms    5.10  12.60   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    5.61
+ o-g 02         mon all       cpen    0.83   0.15   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.80
+ o-g 02         mon all      qcpen    0.83   0.15   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.80
+ num(q) =     91 at lev    1 pen,qcpen,cpen,cqcpen =   2.2122       2.2120      0.24310E-01  0.24308E-01
+ num(q) =      0 at lev    2 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    3 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    4 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    5 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    6 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    7 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    8 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    9 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   10 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   11 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   12 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   13 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   14 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   15 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   16 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   17 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   18 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   19 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   20 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   21 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   22 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   23 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   24 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   25 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   26 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   27 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   28 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   29 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   30 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   31 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   32 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   33 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   34 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   35 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   36 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   37 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   38 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   39 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   40 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   41 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   42 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   43 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   44 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   45 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   46 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   47 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   48 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   49 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   50 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   51 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   52 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   53 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   54 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   55 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   56 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   57 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   58 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   59 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   60 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+    (scaled as precent of guess specific humidity)
+ number of     q obs that failed gross test =     0 nonlin qc test =     0
+ grsmlt=    5.0 number of bad     q obs=      0.
+ number of     q obs extrapolated above top sigma layer=       0
+           number extrapolated below bottom sigma layer=      53
+ type       q jiter   2 nread    1095 nkeep     262 num      91
+ type       q pen=  0.221222057334544431E+01 qcpen=  0.221201129335116820E+01 r=  0.243101E-01 qcr=  0.243078E-01
+current fit of q data, units in per-cent of guess q-sat
+                              ptop  1000.0  950.0  900.0  850.0  800.0  700.0  600.0  500.0  400.0  300.0    0.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  950.0  900.0  850.0  800.0  700.0  600.0  500.0  400.0  300.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 03       q     180 0000 count      91      0      0      0      0      0      0      0      0      0      0      91
+ o-g 03       q     180 0000  bias   -0.10   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.10
+ o-g 03       q     180 0000   rms    0.65   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.65
+ o-g 03       q     180 0000  cpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 03       q     180 0000 qcpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 03             all      count      91      0      0      0      0      0      0      0      0      0      0      91
+ o-g 03             all       bias   -0.10   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.10
+ o-g 03             all        rms    0.65   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.65
+ o-g 03             all       cpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 03             all      qcpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 03       q mon 180 0000 count       3      0      0      0      0      0      0      0      0      0      0       3
+ o-g 03       q mon 180 0000  bias   -6.89   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -6.89
+ o-g 03       q mon 180 0000   rms    7.06   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    7.06
+ o-g 03       q mon 180 0000  cpen    3.89   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.89
+ o-g 03       q mon 180 0000 qcpen    3.89   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    3.89
+ o-g 03       q mon 181 0000 count      26      0      0      0      0      0      0      0      0      0      0      26
+ o-g 03       q mon 181 0000  bias   -2.44   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -2.44
+ o-g 03       q mon 181 0000   rms    4.27   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    4.27
+ o-g 03       q mon 181 0000  cpen    0.42   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.42
+ o-g 03       q mon 181 0000 qcpen    0.42   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.42
+ o-g 03       q mon 183 0000 count       9      2      0      0      0      0      0      0      0      0      0      11
+ o-g 03       q mon 183 0000  bias   -4.04 -12.13   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -5.51
+ o-g 03       q mon 183 0000   rms    4.89  12.19   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    6.83
+ o-g 03       q mon 183 0000  cpen    0.91   0.54   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.85
+ o-g 03       q mon 183 0000 qcpen    0.91   0.54   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.84
+ o-g 03       q mon 187 0000 count     126      5      0      0      0      0      0      0      0      0      0     131
+ o-g 03       q mon 187 0000  bias   -4.76 -12.76   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -5.07
+ o-g 03       q mon 187 0000   rms    6.30  12.85   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    6.67
+ o-g 03       q mon 187 0000  cpen    1.26   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.21
+ o-g 03       q mon 187 0000 qcpen    1.24   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.20
+ o-g 03         mon all      count     164      7      0      0      0      0      0      0      0      0      0     171
+ o-g 03         mon all       bias   -4.39 -12.58   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -4.73
+ o-g 03         mon all        rms    5.97  12.66   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    6.38
+ o-g 03         mon all       cpen    1.15   0.16   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.11
+ o-g 03         mon all      qcpen    1.14   0.16   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.10
+ num(q) =     91 at lev    1 pen,qcpen,cpen,cqcpen =   2.2034       2.2032      0.24214E-01  0.24211E-01
+ num(q) =      0 at lev    2 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    3 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    4 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    5 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    6 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    7 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    8 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev    9 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   10 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   11 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   12 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   13 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   14 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   15 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   16 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   17 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   18 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   19 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   20 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   21 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   22 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   23 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   24 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   25 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   26 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   27 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   28 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   29 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   30 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   31 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   32 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   33 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   34 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   35 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   36 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   37 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   38 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   39 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   40 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   41 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   42 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   43 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   44 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   45 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   46 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   47 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   48 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   49 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   50 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   51 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   52 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   53 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   54 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   55 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   56 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   57 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   58 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   59 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ num(q) =      0 at lev   60 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+    (scaled as precent of guess specific humidity)
+ number of     q obs that failed gross test =     0 nonlin qc test =     0
+ grsmlt=    5.0 number of bad     q obs=      0.
+ number of     q obs extrapolated above top sigma layer=       0
+           number extrapolated below bottom sigma layer=      53
+ type       q jiter   3 nread    1095 nkeep     262 num      91
+ type       q pen=  0.220343131551147398E+01 qcpen=  0.220322966479724691E+01 r=  0.242135E-01 qcr=  0.242113E-01

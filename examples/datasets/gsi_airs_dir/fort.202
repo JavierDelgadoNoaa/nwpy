@@ -1,0 +1,642 @@
+current vfit of wind data, ranges in m/s
+                              ptop  1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0   50.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 01      uv     220 0000 count      14     19     16     28     25     20      5      9     14     20     37     259
+ o-g 01      uv     220 0000  bias   -0.67  -0.62   0.36  -0.09   0.72   1.70   1.69   2.08   1.33   1.23   0.32    0.61
+ o-g 01      uv     220 0000   rms    1.82   2.52   1.95   1.67   1.82   2.64   2.49   3.05   3.34   2.97   2.27    2.49
+ o-g 01      uv     220 0000  cpen    0.21   0.45   0.29   0.22   0.24   0.39   0.36   0.39   0.52   0.39   0.25    0.34
+ o-g 01      uv     220 0000 qcpen    0.21   0.45   0.29   0.22   0.24   0.39   0.36   0.39   0.52   0.39   0.25    0.34
+ o-g 01      uv     230 0000 count       0      0      0      0      0      0      1      2      0      0      0       3
+ o-g 01      uv     230 0000  bias    0.00   0.00   0.00   0.00   0.00   0.00  -1.62  -0.01   0.00   0.00   0.00   -0.54
+ o-g 01      uv     230 0000   rms    0.00   0.00   0.00   0.00   0.00   0.00   2.43   1.17   0.00   0.00   0.00    1.70
+ o-g 01      uv     230 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.16   0.04   0.00   0.00   0.00    0.08
+ o-g 01      uv     230 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.16   0.04   0.00   0.00   0.00    0.08
+ o-g 01      uv     231 0000 count       2      8     10     26     15      0      0      3      0      0      0      64
+ o-g 01      uv     231 0000  bias    0.17  -2.02  -1.20   0.15   0.66   0.00   0.00   5.35   0.00   0.00   0.00    0.03
+ o-g 01      uv     231 0000   rms    2.52   2.50   1.57   0.76   0.91   0.00   0.00   6.85   0.00   0.00   0.00    2.00
+ o-g 01      uv     231 0000  cpen    0.21   0.33   0.16   0.04   0.05   0.00   0.00   1.32   0.00   0.00   0.00    0.16
+ o-g 01      uv     231 0000 qcpen    0.21   0.33   0.16   0.04   0.05   0.00   0.00   1.32   0.00   0.00   0.00    0.16
+ o-g 01      uv     233 0000 count      20    133     65    141    157     24      3    113      1      0      0     657
+ o-g 01      uv     233 0000  bias   -0.55  -0.77  -0.55  -0.50   0.38   0.21   1.71   0.43  -3.76   0.00   0.00   -0.16
+ o-g 01      uv     233 0000   rms    2.00   2.12   1.23   1.45   1.47   1.91   3.03   3.26   4.03   0.00   0.00    2.04
+ o-g 01      uv     233 0000  cpen    0.34   0.35   0.10   0.14   0.15   0.20   0.38   0.46   0.76   0.00   0.00    0.25
+ o-g 01      uv     233 0000 qcpen    0.34   0.35   0.10   0.14   0.15   0.20   0.38   0.46   0.76   0.00   0.00    0.25
+ o-g 01      uv     280 0000 count     219      0      0      0      0      0      0      0      0      0      0     219
+ o-g 01      uv     280 0000  bias    0.70   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.70
+ o-g 01      uv     280 0000   rms    2.08   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    2.08
+ o-g 01      uv     280 0000  cpen    0.25   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.25
+ o-g 01      uv     280 0000 qcpen    0.25   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.25
+ o-g 01      uv     289 0000 count     464      0      0      0      0      0      0      0      0      0      0     464
+ o-g 01      uv     289 0000  bias    0.08   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.08
+ o-g 01      uv     289 0000   rms    2.15   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    2.15
+ o-g 01      uv     289 0000  cpen    0.62   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.62
+ o-g 01      uv     289 0000 qcpen    0.62   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.62
+ o-g 01             all      count     719    160     91    195    197     44      9    127     15     20     37    1666
+ o-g 01             all       bias    0.23  -0.81  -0.46  -0.36   0.45   0.89   1.33   0.66   0.99   1.23   0.32    0.15
+ o-g 01             all        rms    2.12   2.19   1.42   1.41   1.49   2.27   2.68   3.35   3.39   2.97   2.27    2.15
+ o-g 01             all       cpen    0.49   0.36   0.14   0.14   0.16   0.28   0.35   0.47   0.53   0.39   0.25    0.36
+ o-g 01             all      qcpen    0.49   0.36   0.14   0.14   0.16   0.28   0.35   0.47   0.53   0.39   0.25    0.36
+ o-g 01      uv rej 289 0000 count       3      0      0      0      0      0      0      0      0      0      0       3
+ o-g 01      uv rej 289 0000  bias   -0.96   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.96
+ o-g 01      uv rej 289 0000   rms    8.03   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    8.03
+ o-g 01      uv rej 289 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01      uv rej 289 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01         rej all      count       3      0      0      0      0      0      0      0      0      0      0       3
+ o-g 01         rej all       bias   -0.96   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.96
+ o-g 01         rej all        rms    8.03   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    8.03
+ o-g 01         rej all       cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01         rej all      qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01      uv mon 220 0000 count       0      0      0      0      0      0      0      0      0      0      0       5
+ o-g 01      uv mon 220 0000  bias    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -6.43
+ o-g 01      uv mon 220 0000   rms    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    9.55
+ o-g 01      uv mon 220 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01      uv mon 220 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 01      uv mon 231 0000 count       0      0      0      0      2      0      0      0      0      0      0       2
+ o-g 01      uv mon 231 0000  bias    0.00   0.00   0.00   0.00   0.78   0.00   0.00   0.00   0.00   0.00   0.00    0.78
+ o-g 01      uv mon 231 0000   rms    0.00   0.00   0.00   0.00   1.21   0.00   0.00   0.00   0.00   0.00   0.00    1.21
+ o-g 01      uv mon 231 0000  cpen    0.00   0.00   0.00   0.00   0.09   0.00   0.00   0.00   0.00   0.00   0.00    0.09
+ o-g 01      uv mon 231 0000 qcpen    0.00   0.00   0.00   0.00   0.09   0.00   0.00   0.00   0.00   0.00   0.00    0.09
+ o-g 01      uv mon 233 0000 count       0      0      0      0      1      0      0      0      0      0      0       1
+ o-g 01      uv mon 233 0000  bias    0.00   0.00   0.00   0.00  -0.04   0.00   0.00   0.00   0.00   0.00   0.00   -0.04
+ o-g 01      uv mon 233 0000   rms    0.00   0.00   0.00   0.00   0.37   0.00   0.00   0.00   0.00   0.00   0.00    0.37
+ o-g 01      uv mon 233 0000  cpen    0.00   0.00   0.00   0.00   0.01   0.00   0.00   0.00   0.00   0.00   0.00    0.01
+ o-g 01      uv mon 233 0000 qcpen    0.00   0.00   0.00   0.00   0.01   0.00   0.00   0.00   0.00   0.00   0.00    0.01
+ o-g 01      uv mon 281 0000 count      66      0      0      0      0      0      0      0      0      0      0      66
+ o-g 01      uv mon 281 0000  bias   -0.30   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.30
+ o-g 01      uv mon 281 0000   rms    1.67   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.67
+ o-g 01      uv mon 281 0000  cpen    0.32   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.32
+ o-g 01      uv mon 281 0000 qcpen    0.32   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.32
+ o-g 01      uv mon 284 0000 count       9      2      0      0      0      0      0      0      0      0      0      11
+ o-g 01      uv mon 284 0000  bias    0.20  -1.47   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -0.10
+ o-g 01      uv mon 284 0000   rms    1.94   2.27   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    2.00
+ o-g 01      uv mon 284 0000  cpen    0.51   0.50   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.51
+ o-g 01      uv mon 284 0000 qcpen    0.51   0.50   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.51
+ o-g 01      uv mon 287 0000 count     207     10      0      0      0      0      0      0      0      0      0     217
+ o-g 01      uv mon 287 0000  bias    0.20  -1.94   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.10
+ o-g 01      uv mon 287 0000   rms    2.14   2.29   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    2.15
+ o-g 01      uv mon 287 0000  cpen    0.53   0.43   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.52
+ o-g 01      uv mon 287 0000 qcpen    0.53   0.43   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.52
+ o-g 01         mon all      count     282     12      0      0      3      0      0      0      0      0      0     302
+ o-g 01         mon all       bias    0.08  -1.86   0.00   0.00   0.50   0.00   0.00   0.00   0.00   0.00   0.00   -0.10
+ o-g 01         mon all        rms    2.03   2.29   0.00   0.00   1.01   0.00   0.00   0.00   0.00   0.00   0.00    2.36
+ o-g 01         mon all       cpen    0.48   0.44   0.00   0.00   0.06   0.00   0.00   0.00   0.00   0.00   0.00    0.47
+ o-g 01         mon all      qcpen    0.48   0.44   0.00   0.00   0.06   0.00   0.00   0.00   0.00   0.00   0.00    0.47
+ number of  wind obs extrapolated above top sigma layer=       0
+           number extrapolated below bottom sigma layer=       7
+ num(w) =    706 at lev    1 upen,vpen,cupen,cvpen =   321.73       377.74      0.45571      0.53505    
+ num(w) =      7 at lev    2 upen,vpen,cupen,cvpen =   1.8747       2.0987      0.26781      0.29981    
+ num(w) =      9 at lev    3 upen,vpen,cupen,cvpen =   3.7416       5.9269      0.41573      0.65855    
+ num(w) =      4 at lev    4 upen,vpen,cupen,cvpen =  0.15354       1.5018      0.38384E-01  0.37545    
+ num(w) =      4 at lev    5 upen,vpen,cupen,cvpen =   1.7328      0.62224      0.43320      0.15556    
+ num(w) =     12 at lev    6 upen,vpen,cupen,cvpen =   3.2160       4.4017      0.26800      0.36680    
+ num(w) =      7 at lev    7 upen,vpen,cupen,cvpen =   3.1466       5.0935      0.44952      0.72764    
+ num(w) =      8 at lev    8 upen,vpen,cupen,cvpen =   1.4926       2.7831      0.18657      0.34789    
+ num(w) =      4 at lev    9 upen,vpen,cupen,cvpen =   2.0507      0.94175      0.51269      0.23544    
+ num(w) =     12 at lev   10 upen,vpen,cupen,cvpen =   4.1530       6.5447      0.34608      0.54539    
+ num(w) =      8 at lev   11 upen,vpen,cupen,cvpen =   3.0414       4.9178      0.38017      0.61473    
+ num(w) =     18 at lev   12 upen,vpen,cupen,cvpen =   6.7655       8.7167      0.37586      0.48426    
+ num(w) =      9 at lev   13 upen,vpen,cupen,cvpen =   2.9697       4.7401      0.32997      0.52667    
+ num(w) =     10 at lev   14 upen,vpen,cupen,cvpen =   1.0544       3.9912      0.10544      0.39912    
+ num(w) =     15 at lev   15 upen,vpen,cupen,cvpen =   5.0956       5.0637      0.33970      0.33758    
+ num(w) =     22 at lev   16 upen,vpen,cupen,cvpen =   9.5422       6.4461      0.43374      0.29301    
+ num(w) =     17 at lev   17 upen,vpen,cupen,cvpen =   2.9771       2.5993      0.17512      0.15290    
+ num(w) =     13 at lev   18 upen,vpen,cupen,cvpen =   2.7485       1.9458      0.21142      0.14968    
+ num(w) =     21 at lev   19 upen,vpen,cupen,cvpen =   5.3862       3.0670      0.25648      0.14605    
+ num(w) =     11 at lev   20 upen,vpen,cupen,cvpen =   1.3694      0.78658      0.12449      0.71508E-01
+ num(w) =     12 at lev   21 upen,vpen,cupen,cvpen =   1.5138       2.2425      0.12615      0.18688    
+ num(w) =     18 at lev   22 upen,vpen,cupen,cvpen =   2.2849       1.5807      0.12694      0.87817E-01
+ num(w) =     14 at lev   23 upen,vpen,cupen,cvpen =   2.1727       1.9401      0.15519      0.13858    
+ num(w) =     18 at lev   24 upen,vpen,cupen,cvpen =   1.7897       3.2315      0.99427E-01  0.17953    
+ num(w) =     19 at lev   25 upen,vpen,cupen,cvpen =   1.8078       4.1944      0.95145E-01  0.22076    
+ num(w) =     23 at lev   26 upen,vpen,cupen,cvpen =   1.6348       4.6694      0.71078E-01  0.20302    
+ num(w) =     21 at lev   27 upen,vpen,cupen,cvpen =   1.2154       5.3532      0.57878E-01  0.25492    
+ num(w) =     46 at lev   28 upen,vpen,cupen,cvpen =   3.5266       10.553      0.76666E-01  0.22941    
+ num(w) =     39 at lev   29 upen,vpen,cupen,cvpen =   2.7279       6.7049      0.69946E-01  0.17192    
+ num(w) =     31 at lev   30 upen,vpen,cupen,cvpen =   2.4022       5.2077      0.77489E-01  0.16799    
+ num(w) =     35 at lev   31 upen,vpen,cupen,cvpen =   2.1296       4.5184      0.60847E-01  0.12910    
+ num(w) =     28 at lev   32 upen,vpen,cupen,cvpen =   2.5007       3.9189      0.89311E-01  0.13996    
+ num(w) =     34 at lev   33 upen,vpen,cupen,cvpen =   4.5701       5.3711      0.13442      0.15797    
+ num(w) =     41 at lev   34 upen,vpen,cupen,cvpen =   8.8352       7.0594      0.21549      0.17218    
+ num(w) =     32 at lev   35 upen,vpen,cupen,cvpen =   4.6498       5.0678      0.14531      0.15837    
+ num(w) =     27 at lev   36 upen,vpen,cupen,cvpen =   4.5280       5.6520      0.16770      0.20933    
+ num(w) =     26 at lev   37 upen,vpen,cupen,cvpen =   5.2319       5.4879      0.20123      0.21107    
+ num(w) =     11 at lev   38 upen,vpen,cupen,cvpen =   1.3381       3.5897      0.12165      0.32634    
+ num(w) =      6 at lev   39 upen,vpen,cupen,cvpen =   5.8018       1.2358      0.96697      0.20596    
+ num(w) =      8 at lev   40 upen,vpen,cupen,cvpen =   4.5481      0.81556      0.56852      0.10194    
+ num(w) =      6 at lev   41 upen,vpen,cupen,cvpen =   1.7606       3.6080      0.29344      0.60134    
+ num(w) =     33 at lev   42 upen,vpen,cupen,cvpen =   12.138       7.5348      0.36782      0.22833    
+ num(w) =     41 at lev   43 upen,vpen,cupen,cvpen =   20.061       9.5650      0.48928      0.23329    
+ num(w) =     61 at lev   44 upen,vpen,cupen,cvpen =   32.830       42.326      0.53820      0.69387    
+ num(w) =      3 at lev   45 upen,vpen,cupen,cvpen =  0.92863       2.4760      0.30954      0.82533    
+ num(w) =      3 at lev   46 upen,vpen,cupen,cvpen =   3.3935      0.16660       1.1312      0.55533E-01
+ num(w) =      3 at lev   47 upen,vpen,cupen,cvpen =   3.4285      0.17347       1.1428      0.57825E-01
+ num(w) =      8 at lev   48 upen,vpen,cupen,cvpen =   6.6207       2.0099      0.82759      0.25124    
+ num(w) =      2 at lev   49 upen,vpen,cupen,cvpen =   1.5855       1.3158      0.79274      0.65790    
+ num(w) =      3 at lev   50 upen,vpen,cupen,cvpen =  0.78462      0.23021      0.26154      0.76738E-01
+ num(w) =      8 at lev   51 upen,vpen,cupen,cvpen =   2.8062       1.3429      0.35078      0.16786    
+ num(w) =      8 at lev   52 upen,vpen,cupen,cvpen =   2.2530      0.93805      0.28162      0.11726    
+ num(w) =      4 at lev   53 upen,vpen,cupen,cvpen =   1.1192      0.77513      0.27979      0.19378    
+ num(w) =     13 at lev   54 upen,vpen,cupen,cvpen =  0.92749       4.8568      0.71345E-01  0.37360    
+ num(w) =     10 at lev   55 upen,vpen,cupen,cvpen =   4.8776       1.3249      0.48776      0.13249    
+ num(w) =     18 at lev   56 upen,vpen,cupen,cvpen =   6.8998       6.4455      0.38332      0.35808    
+ num(w) =     15 at lev   57 upen,vpen,cupen,cvpen =   2.8009       3.0147      0.18673      0.20098    
+ num(w) =     15 at lev   58 upen,vpen,cupen,cvpen =   4.2771       4.6355      0.28514      0.30904    
+ num(w) =      6 at lev   59 upen,vpen,cupen,cvpen =   12.411       5.8874       2.0684      0.98124    
+ num(w) =      0 at lev   60 upen,vpen,cupen,cvpen =   0.0000       0.0000       0.0000       0.0000    
+ num(w) =    706 at lev    1 pen,qcpen,cpen,cqcpen =   699.47       699.10      0.99076      0.99023    
+ num(w) =      7 at lev    2 pen,qcpen,cpen,cqcpen =   3.9733       3.9733      0.56762      0.56761    
+ num(w) =      9 at lev    3 pen,qcpen,cpen,cqcpen =   9.6686       9.6684       1.0743       1.0743    
+ num(w) =      4 at lev    4 pen,qcpen,cpen,cqcpen =   1.6553       1.6553      0.41383      0.41382    
+ num(w) =      4 at lev    5 pen,qcpen,cpen,cqcpen =   2.3550       2.3550      0.58876      0.58875    
+ num(w) =     12 at lev    6 pen,qcpen,cpen,cqcpen =   7.6177       7.6175      0.63481      0.63479    
+ num(w) =      7 at lev    7 pen,qcpen,cpen,cqcpen =   8.2401       8.2399       1.1772       1.1771    
+ num(w) =      8 at lev    8 pen,qcpen,cpen,cqcpen =   4.2757       4.2756      0.53446      0.53445    
+ num(w) =      4 at lev    9 pen,qcpen,cpen,cqcpen =   2.9925       2.9924      0.74812      0.74811    
+ num(w) =     12 at lev   10 pen,qcpen,cpen,cqcpen =   10.698       10.697      0.89148      0.89145    
+ num(w) =      8 at lev   11 pen,qcpen,cpen,cqcpen =   7.9592       7.9589      0.99490      0.99487    
+ num(w) =     18 at lev   12 pen,qcpen,cpen,cqcpen =   15.482       15.482      0.86012      0.86010    
+ num(w) =      9 at lev   13 pen,qcpen,cpen,cqcpen =   7.7098       7.7096      0.85664      0.85662    
+ num(w) =     10 at lev   14 pen,qcpen,cpen,cqcpen =   5.0455       5.0454      0.50455      0.50454    
+ num(w) =     15 at lev   15 pen,qcpen,cpen,cqcpen =   10.159       10.159      0.67728      0.67727    
+ num(w) =     22 at lev   16 pen,qcpen,cpen,cqcpen =   15.988       15.988      0.72674      0.72673    
+ num(w) =     17 at lev   17 pen,qcpen,cpen,cqcpen =   5.5764       5.5763      0.32802      0.32802    
+ num(w) =     13 at lev   18 pen,qcpen,cpen,cqcpen =   4.6943       4.6942      0.36110      0.36109    
+ num(w) =     21 at lev   19 pen,qcpen,cpen,cqcpen =   8.4532       8.4530      0.40253      0.40253    
+ num(w) =     11 at lev   20 pen,qcpen,cpen,cqcpen =   2.1560       2.1560      0.19600      0.19600    
+ num(w) =     12 at lev   21 pen,qcpen,cpen,cqcpen =   3.7563       3.7563      0.31303      0.31303    
+ num(w) =     18 at lev   22 pen,qcpen,cpen,cqcpen =   3.8656       3.8655      0.21475      0.21475    
+ num(w) =     14 at lev   23 pen,qcpen,cpen,cqcpen =   4.1128       4.1128      0.29377      0.29377    
+ num(w) =     18 at lev   24 pen,qcpen,cpen,cqcpen =   5.0212       5.0211      0.27895      0.27895    
+ num(w) =     19 at lev   25 pen,qcpen,cpen,cqcpen =   6.0022       6.0021      0.31590      0.31590    
+ num(w) =     23 at lev   26 pen,qcpen,cpen,cqcpen =   6.3042       6.3041      0.27409      0.27409    
+ num(w) =     21 at lev   27 pen,qcpen,cpen,cqcpen =   6.5687       6.5685      0.31279      0.31279    
+ num(w) =     46 at lev   28 pen,qcpen,cpen,cqcpen =   14.079       14.079      0.30607      0.30607    
+ num(w) =     39 at lev   29 pen,qcpen,cpen,cqcpen =   9.4328       9.4326      0.24187      0.24186    
+ num(w) =     31 at lev   30 pen,qcpen,cpen,cqcpen =   7.6099       7.6098      0.24548      0.24548    
+ num(w) =     35 at lev   31 pen,qcpen,cpen,cqcpen =   6.6480       6.6479      0.18994      0.18994    
+ num(w) =     28 at lev   32 pen,qcpen,cpen,cqcpen =   6.4196       6.4194      0.22927      0.22927    
+ num(w) =     34 at lev   33 pen,qcpen,cpen,cqcpen =   9.9412       9.9410      0.29239      0.29238    
+ num(w) =     41 at lev   34 pen,qcpen,cpen,cqcpen =   15.895       15.894      0.38767      0.38767    
+ num(w) =     32 at lev   35 pen,qcpen,cpen,cqcpen =   9.7175       9.7174      0.30367      0.30367    
+ num(w) =     27 at lev   36 pen,qcpen,cpen,cqcpen =   10.180       10.180      0.37703      0.37703    
+ num(w) =     26 at lev   37 pen,qcpen,cpen,cqcpen =   10.720       10.720      0.41230      0.41230    
+ num(w) =     11 at lev   38 pen,qcpen,cpen,cqcpen =   4.9278       4.9277      0.44798      0.44797    
+ num(w) =      6 at lev   39 pen,qcpen,cpen,cqcpen =   7.0376       7.0375       1.1729       1.1729    
+ num(w) =      8 at lev   40 pen,qcpen,cpen,cqcpen =   5.3637       5.3637      0.67046      0.67046    
+ num(w) =      6 at lev   41 pen,qcpen,cpen,cqcpen =   5.3686       5.3686      0.89477      0.89476    
+ num(w) =     33 at lev   42 pen,qcpen,cpen,cqcpen =   19.673       19.673      0.59615      0.59614    
+ num(w) =     41 at lev   43 pen,qcpen,cpen,cqcpen =   29.626       29.625      0.72257      0.72256    
+ num(w) =     61 at lev   44 pen,qcpen,cpen,cqcpen =   75.156       75.153       1.2321       1.2320    
+ num(w) =      3 at lev   45 pen,qcpen,cpen,cqcpen =   3.4046       3.4046       1.1349       1.1349    
+ num(w) =      3 at lev   46 pen,qcpen,cpen,cqcpen =   3.5601       3.5601       1.1867       1.1867    
+ num(w) =      3 at lev   47 pen,qcpen,cpen,cqcpen =   3.6020       3.6020       1.2007       1.2007    
+ num(w) =      8 at lev   48 pen,qcpen,cpen,cqcpen =   8.6307       8.6306       1.0788       1.0788    
+ num(w) =      2 at lev   49 pen,qcpen,cpen,cqcpen =   2.9013       2.9013       1.4506       1.4506    
+ num(w) =      3 at lev   50 pen,qcpen,cpen,cqcpen =   1.0148       1.0148      0.33828      0.33828    
+ num(w) =      8 at lev   51 pen,qcpen,cpen,cqcpen =   4.1491       4.1491      0.51864      0.51864    
+ num(w) =      8 at lev   52 pen,qcpen,cpen,cqcpen =   3.1910       3.1910      0.39888      0.39888    
+ num(w) =      4 at lev   53 pen,qcpen,cpen,cqcpen =   1.8943       1.8943      0.47357      0.47357    
+ num(w) =     13 at lev   54 pen,qcpen,cpen,cqcpen =   5.7843       5.7843      0.44495      0.44495    
+ num(w) =     10 at lev   55 pen,qcpen,cpen,cqcpen =   6.2025       6.2025      0.62025      0.62025    
+ num(w) =     18 at lev   56 pen,qcpen,cpen,cqcpen =   13.345       13.345      0.74140      0.74140    
+ num(w) =     15 at lev   57 pen,qcpen,cpen,cqcpen =   5.8157       5.8157      0.38771      0.38771    
+ num(w) =     15 at lev   58 pen,qcpen,cpen,cqcpen =   8.9126       8.9126      0.59417      0.59417    
+ num(w) =      6 at lev   59 pen,qcpen,cpen,cqcpen =   18.298       18.297       3.0497       3.0495    
+ num(w) =      0 at lev   60 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ number ssm/i winds that fail nonlinear qc =      0
+ number of  wind obs that failed gross test =     0 nonlin qc test =     0
+ number of     u obs =   1666 pen=  0.571353890270061697E+03 cpen=  0.342950    
+ number of     v obs =   1666 pen=  0.636951680792005732E+03 cpen=  0.382324    
+ type      uv jiter   1 nread    3942 nkeep    3942 num    3332
+ type      uv pen=  0.120830557106206743E+04 qcpen=  0.120792316051008288E+04 r=  0.725273     qcr=  0.725044    
+ type     spd jiter   1 nread       0 nkeep       0 num       0
+ type     spd pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    
+current vfit of wind data, ranges in m/s
+                              ptop  1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0   50.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 02      uv     220 0000 count      14     19     16     28     25     20      5      9     14     20     37     259
+ o-g 02      uv     220 0000  bias   -0.04   0.00   0.07   0.00   0.05   0.22   0.21   0.24   0.41   0.39   0.07    0.11
+ o-g 02      uv     220 0000   rms    0.33   0.36   0.30   0.27   0.24   0.40   0.38   0.46   0.80   0.94   0.99    0.92
+ o-g 02      uv     220 0000  cpen    0.01   0.01   0.01   0.01   0.00   0.01   0.01   0.01   0.03   0.04   0.05    0.04
+ o-g 02      uv     220 0000 qcpen    0.01   0.01   0.01   0.01   0.00   0.01   0.01   0.01   0.03   0.04   0.05    0.04
+ o-g 02      uv     230 0000 count       0      0      0      0      0      0      1      2      0      0      0       3
+ o-g 02      uv     230 0000  bias    0.00   0.00   0.00   0.00   0.00   0.00  -0.51   0.24   0.00   0.00   0.00   -0.01
+ o-g 02      uv     230 0000   rms    0.00   0.00   0.00   0.00   0.00   0.00   0.63   0.54   0.00   0.00   0.00    0.57
+ o-g 02      uv     230 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.01   0.01   0.00   0.00   0.00    0.01
+ o-g 02      uv     230 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.01   0.01   0.00   0.00   0.00    0.01
+ o-g 02      uv     231 0000 count       2      8     10     26     15      0      0      3      0      0      0      64
+ o-g 02      uv     231 0000  bias    1.08  -0.25  -0.20   0.06   0.09   0.00   0.00   1.68   0.00   0.00   0.00    0.10
+ o-g 02      uv     231 0000   rms    2.12   0.73   0.28   0.10   0.14   0.00   0.00   1.95   0.00   0.00   0.00    0.64
+ o-g 02      uv     231 0000  cpen    0.15   0.02   0.01   0.00   0.00   0.00   0.00   0.11   0.00   0.00   0.00    0.01
+ o-g 02      uv     231 0000 qcpen    0.15   0.02   0.01   0.00   0.00   0.00   0.00   0.11   0.00   0.00   0.00    0.01
+ o-g 02      uv     233 0000 count      20    133     65    141    157     24      3    113      1      0      0     657
+ o-g 02      uv     233 0000  bias   -0.05  -0.03  -0.02   0.00   0.02   0.02   0.46   0.09  -1.30   0.00   0.00    0.01
+ o-g 02      uv     233 0000   rms    0.79   0.38   0.34   0.16   0.13   0.26   0.82   0.82   1.71   0.00   0.00    0.44
+ o-g 02      uv     233 0000  cpen    0.05   0.01   0.01   0.00   0.00   0.00   0.03   0.03   0.13   0.00   0.00    0.01
+ o-g 02      uv     233 0000 qcpen    0.05   0.01   0.01   0.00   0.00   0.00   0.03   0.03   0.13   0.00   0.00    0.01
+ o-g 02      uv     280 0000 count     219      0      0      0      0      0      0      0      0      0      0     219
+ o-g 02      uv     280 0000  bias    0.07   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.07
+ o-g 02      uv     280 0000   rms    0.60   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.60
+ o-g 02      uv     280 0000  cpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 02      uv     280 0000 qcpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 02      uv     289 0000 count     465      0      0      0      0      0      0      0      0      0      0     465
+ o-g 02      uv     289 0000  bias    0.12   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.12
+ o-g 02      uv     289 0000   rms    0.99   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.99
+ o-g 02      uv     289 0000  cpen    0.13   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.13
+ o-g 02      uv     289 0000 qcpen    0.13   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.13
+ o-g 02             all      count     720    160     91    195    197     44      9    127     15     20     37    1667
+ o-g 02             all       bias    0.10  -0.04  -0.03   0.01   0.03   0.11   0.21   0.14   0.30   0.39   0.07    0.07
+ o-g 02             all        rms    0.88   0.40   0.32   0.17   0.15   0.33   0.59   0.84   0.89   0.94   0.99    0.74
+ o-g 02             all       cpen    0.09   0.01   0.01   0.00   0.00   0.01   0.02   0.03   0.04   0.04   0.05    0.05
+ o-g 02             all      qcpen    0.09   0.01   0.01   0.00   0.00   0.01   0.02   0.03   0.04   0.04   0.05    0.05
+ o-g 02      uv rej 289 0000 count       2      0      0      0      0      0      0      0      0      0      0       2
+ o-g 02      uv rej 289 0000  bias   -2.35   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -2.35
+ o-g 02      uv rej 289 0000   rms    9.03   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    9.03
+ o-g 02      uv rej 289 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv rej 289 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02         rej all      count       2      0      0      0      0      0      0      0      0      0      0       2
+ o-g 02         rej all       bias   -2.35   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -2.35
+ o-g 02         rej all        rms    9.03   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    9.03
+ o-g 02         rej all       cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02         rej all      qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv mon 220 0000 count       0      0      0      0      0      0      0      0      0      0      0       5
+ o-g 02      uv mon 220 0000  bias    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -6.52
+ o-g 02      uv mon 220 0000   rms    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    9.47
+ o-g 02      uv mon 220 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv mon 220 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv mon 231 0000 count       0      0      0      0      2      0      0      0      0      0      0       2
+ o-g 02      uv mon 231 0000  bias    0.00   0.00   0.00   0.00   0.19   0.00   0.00   0.00   0.00   0.00   0.00    0.19
+ o-g 02      uv mon 231 0000   rms    0.00   0.00   0.00   0.00   0.24   0.00   0.00   0.00   0.00   0.00   0.00    0.24
+ o-g 02      uv mon 231 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv mon 231 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv mon 233 0000 count       0      0      0      0      1      0      0      0      0      0      0       1
+ o-g 02      uv mon 233 0000  bias    0.00   0.00   0.00   0.00   0.03   0.00   0.00   0.00   0.00   0.00   0.00    0.03
+ o-g 02      uv mon 233 0000   rms    0.00   0.00   0.00   0.00   0.04   0.00   0.00   0.00   0.00   0.00   0.00    0.04
+ o-g 02      uv mon 233 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv mon 233 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 02      uv mon 281 0000 count      66      0      0      0      0      0      0      0      0      0      0      66
+ o-g 02      uv mon 281 0000  bias    0.56   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.56
+ o-g 02      uv mon 281 0000   rms    1.16   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.16
+ o-g 02      uv mon 281 0000  cpen    0.15   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.15
+ o-g 02      uv mon 281 0000 qcpen    0.15   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.15
+ o-g 02      uv mon 284 0000 count       9      2      0      0      0      0      0      0      0      0      0      11
+ o-g 02      uv mon 284 0000  bias    0.63  -0.07   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.50
+ o-g 02      uv mon 284 0000   rms    1.29   1.01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.24
+ o-g 02      uv mon 284 0000  cpen    0.22   0.10   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.20
+ o-g 02      uv mon 284 0000 qcpen    0.22   0.10   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.20
+ o-g 02      uv mon 287 0000 count     207     10      0      0      0      0      0      0      0      0      0     217
+ o-g 02      uv mon 287 0000  bias    0.46  -1.27   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.38
+ o-g 02      uv mon 287 0000   rms    1.39   1.98   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.42
+ o-g 02      uv mon 287 0000  cpen    0.21   0.31   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.22
+ o-g 02      uv mon 287 0000 qcpen    0.21   0.31   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.22
+ o-g 02         mon all      count     282     12      0      0      3      0      0      0      0      0      0     302
+ o-g 02         mon all       bias    0.49  -1.07   0.00   0.00   0.14   0.00   0.00   0.00   0.00   0.00   0.00    0.31
+ o-g 02         mon all        rms    1.34   1.85   0.00   0.00   0.20   0.00   0.00   0.00   0.00   0.00   0.00    1.81
+ o-g 02         mon all       cpen    0.20   0.27   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.20
+ o-g 02         mon all      qcpen    0.20   0.27   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.20
+ number of  wind obs extrapolated above top sigma layer=       0
+           number extrapolated below bottom sigma layer=       7
+ num(w) =    707 at lev    1 upen,vpen,cupen,cvpen =   56.495       77.872      0.79909E-01  0.11014    
+ num(w) =      7 at lev    2 upen,vpen,cupen,cvpen =  0.19973      0.23309      0.28533E-01  0.33299E-01
+ num(w) =      9 at lev    3 upen,vpen,cupen,cvpen =  0.78903E-01  0.14123      0.87670E-02  0.15692E-01
+ num(w) =      4 at lev    4 upen,vpen,cupen,cvpen =  0.66883E-01  0.33329E-01  0.16721E-01  0.83323E-02
+ num(w) =      4 at lev    5 upen,vpen,cupen,cvpen =  0.34083      0.48189E-01  0.85206E-01  0.12047E-01
+ num(w) =     12 at lev    6 upen,vpen,cupen,cvpen =  0.10003      0.83185E-01  0.83359E-02  0.69321E-02
+ num(w) =      7 at lev    7 upen,vpen,cupen,cvpen =  0.38880      0.28956      0.55543E-01  0.41366E-01
+ num(w) =      8 at lev    8 upen,vpen,cupen,cvpen =  0.65068E-01  0.36714E-01  0.81335E-02  0.45893E-02
+ num(w) =      5 at lev    9 upen,vpen,cupen,cvpen =  0.11340      0.19791E-01  0.22680E-01  0.39582E-02
+ num(w) =     10 at lev   10 upen,vpen,cupen,cvpen =  0.86687E-01  0.55492E-01  0.86687E-02  0.55492E-02
+ num(w) =      9 at lev   11 upen,vpen,cupen,cvpen =  0.17430      0.93754E-01  0.19367E-01  0.10417E-01
+ num(w) =     18 at lev   12 upen,vpen,cupen,cvpen =  0.23646      0.19103      0.13137E-01  0.10613E-01
+ num(w) =      9 at lev   13 upen,vpen,cupen,cvpen =  0.79509E-01  0.36354E-01  0.88344E-02  0.40393E-02
+ num(w) =     10 at lev   14 upen,vpen,cupen,cvpen =  0.81658E-01  0.63574E-01  0.81658E-02  0.63574E-02
+ num(w) =     16 at lev   15 upen,vpen,cupen,cvpen =  0.99305E-01  0.15659      0.62066E-02  0.97868E-02
+ num(w) =     21 at lev   16 upen,vpen,cupen,cvpen =  0.14525      0.17662      0.69168E-02  0.84105E-02
+ num(w) =     17 at lev   17 upen,vpen,cupen,cvpen =  0.93563E-01  0.93518E-01  0.55037E-02  0.55011E-02
+ num(w) =     13 at lev   18 upen,vpen,cupen,cvpen =  0.40967E-01  0.60125E-01  0.31513E-02  0.46250E-02
+ num(w) =     21 at lev   19 upen,vpen,cupen,cvpen =  0.15781      0.15015      0.75149E-02  0.71498E-02
+ num(w) =     11 at lev   20 upen,vpen,cupen,cvpen =  0.61242E-01  0.91124E-01  0.55674E-02  0.82840E-02
+ num(w) =     12 at lev   21 upen,vpen,cupen,cvpen =  0.61248E-01  0.12016      0.51040E-02  0.10013E-01
+ num(w) =     18 at lev   22 upen,vpen,cupen,cvpen =  0.96686E-01  0.16401      0.53715E-02  0.91119E-02
+ num(w) =     14 at lev   23 upen,vpen,cupen,cvpen =  0.71991E-01  0.17795      0.51422E-02  0.12711E-01
+ num(w) =     18 at lev   24 upen,vpen,cupen,cvpen =  0.65457E-01  0.54816E-01  0.36365E-02  0.30453E-02
+ num(w) =     19 at lev   25 upen,vpen,cupen,cvpen =  0.61721E-01  0.80290E-01  0.32485E-02  0.42258E-02
+ num(w) =     23 at lev   26 upen,vpen,cupen,cvpen =  0.43397E-01  0.90488E-01  0.18868E-02  0.39343E-02
+ num(w) =     21 at lev   27 upen,vpen,cupen,cvpen =  0.27409E-01  0.44158E-01  0.13052E-02  0.21028E-02
+ num(w) =     46 at lev   28 upen,vpen,cupen,cvpen =  0.70399E-01  0.97275E-01  0.15304E-02  0.21147E-02
+ num(w) =     39 at lev   29 upen,vpen,cupen,cvpen =  0.69413E-01  0.69770E-01  0.17798E-02  0.17890E-02
+ num(w) =     31 at lev   30 upen,vpen,cupen,cvpen =  0.86281E-01  0.32276E-01  0.27833E-02  0.10412E-02
+ num(w) =     35 at lev   31 upen,vpen,cupen,cvpen =  0.76392E-01  0.49850E-01  0.21826E-02  0.14243E-02
+ num(w) =     28 at lev   32 upen,vpen,cupen,cvpen =  0.38425E-01  0.26443E-01  0.13723E-02  0.94440E-03
+ num(w) =     34 at lev   33 upen,vpen,cupen,cvpen =  0.41419E-01  0.65261E-01  0.12182E-02  0.19194E-02
+ num(w) =     41 at lev   34 upen,vpen,cupen,cvpen =  0.59580E-01  0.58869E-01  0.14532E-02  0.14358E-02
+ num(w) =     32 at lev   35 upen,vpen,cupen,cvpen =  0.21587E-01  0.53389E-01  0.67460E-03  0.16684E-02
+ num(w) =     27 at lev   36 upen,vpen,cupen,cvpen =  0.45007E-01  0.81484E-01  0.16669E-02  0.30179E-02
+ num(w) =     26 at lev   37 upen,vpen,cupen,cvpen =  0.12087      0.57465E-01  0.46489E-02  0.22102E-02
+ num(w) =     11 at lev   38 upen,vpen,cupen,cvpen =  0.76830E-02  0.76224E-01  0.69846E-03  0.69295E-02
+ num(w) =      6 at lev   39 upen,vpen,cupen,cvpen =  0.14927      0.40711E-01  0.24879E-01  0.67852E-02
+ num(w) =      8 at lev   40 upen,vpen,cupen,cvpen =  0.98688E-01  0.25669E-01  0.12336E-01  0.32086E-02
+ num(w) =      6 at lev   41 upen,vpen,cupen,cvpen =  0.67925E-01  0.15602      0.11321E-01  0.26003E-01
+ num(w) =     33 at lev   42 upen,vpen,cupen,cvpen =  0.49318      0.45817      0.14945E-01  0.13884E-01
+ num(w) =     41 at lev   43 upen,vpen,cupen,cvpen =   1.4064      0.75984      0.34302E-01  0.18533E-01
+ num(w) =     61 at lev   44 upen,vpen,cupen,cvpen =   2.0724       2.3969      0.33974E-01  0.39293E-01
+ num(w) =      3 at lev   45 upen,vpen,cupen,cvpen =  0.10947      0.32778      0.36489E-01  0.10926    
+ num(w) =      3 at lev   46 upen,vpen,cupen,cvpen =  0.14896      0.96143E-02  0.49653E-01  0.32048E-02
+ num(w) =      3 at lev   47 upen,vpen,cupen,cvpen =  0.86587E-01  0.12449      0.28862E-01  0.41496E-01
+ num(w) =      8 at lev   48 upen,vpen,cupen,cvpen =  0.35191      0.36478      0.43989E-01  0.45598E-01
+ num(w) =      2 at lev   49 upen,vpen,cupen,cvpen =  0.17955      0.20025      0.89775E-01  0.10012    
+ num(w) =      3 at lev   50 upen,vpen,cupen,cvpen =  0.17415      0.52312E-01  0.58050E-01  0.17437E-01
+ num(w) =      8 at lev   51 upen,vpen,cupen,cvpen =  0.27565      0.18684      0.34456E-01  0.23355E-01
+ num(w) =      8 at lev   52 upen,vpen,cupen,cvpen =  0.21401      0.13754      0.26751E-01  0.17192E-01
+ num(w) =      4 at lev   53 upen,vpen,cupen,cvpen =  0.52949E-01  0.23564      0.13237E-01  0.58910E-01
+ num(w) =     13 at lev   54 upen,vpen,cupen,cvpen =  0.54257       1.2082      0.41736E-01  0.92939E-01
+ num(w) =     10 at lev   55 upen,vpen,cupen,cvpen =  0.55275      0.73801      0.55275E-01  0.73801E-01
+ num(w) =     18 at lev   56 upen,vpen,cupen,cvpen =   1.0870       2.5453      0.60389E-01  0.14140    
+ num(w) =     15 at lev   57 upen,vpen,cupen,cvpen =  0.75112       1.1370      0.50075E-01  0.75800E-01
+ num(w) =     15 at lev   58 upen,vpen,cupen,cvpen =   3.0323      0.73971      0.20215      0.49314E-01
+ num(w) =      6 at lev   59 upen,vpen,cupen,cvpen =   4.7798      0.74715      0.79663      0.12453    
+ num(w) =      0 at lev   60 upen,vpen,cupen,cvpen =   0.0000       0.0000       0.0000       0.0000    
+ num(w) =    707 at lev    1 pen,qcpen,cpen,cqcpen =   134.37       134.29      0.19005      0.18995    
+ num(w) =      7 at lev    2 pen,qcpen,cpen,cqcpen =  0.43283      0.43282      0.61832E-01  0.61831E-01
+ num(w) =      9 at lev    3 pen,qcpen,cpen,cqcpen =  0.22013      0.22013      0.24459E-01  0.24459E-01
+ num(w) =      4 at lev    4 pen,qcpen,cpen,cqcpen =  0.10021      0.10021      0.25053E-01  0.25053E-01
+ num(w) =      4 at lev    5 pen,qcpen,cpen,cqcpen =  0.38901      0.38901      0.97254E-01  0.97252E-01
+ num(w) =     12 at lev    6 pen,qcpen,cpen,cqcpen =  0.18322      0.18321      0.15268E-01  0.15268E-01
+ num(w) =      7 at lev    7 pen,qcpen,cpen,cqcpen =  0.67836      0.67835      0.96909E-01  0.96907E-01
+ num(w) =      8 at lev    8 pen,qcpen,cpen,cqcpen =  0.10178      0.10178      0.12723E-01  0.12723E-01
+ num(w) =      5 at lev    9 pen,qcpen,cpen,cqcpen =  0.13319      0.13319      0.26638E-01  0.26637E-01
+ num(w) =     10 at lev   10 pen,qcpen,cpen,cqcpen =  0.14218      0.14218      0.14218E-01  0.14218E-01
+ num(w) =      9 at lev   11 pen,qcpen,cpen,cqcpen =  0.26806      0.26805      0.29784E-01  0.29784E-01
+ num(w) =     18 at lev   12 pen,qcpen,cpen,cqcpen =  0.42750      0.42749      0.23750E-01  0.23749E-01
+ num(w) =      9 at lev   13 pen,qcpen,cpen,cqcpen =  0.11586      0.11586      0.12874E-01  0.12873E-01
+ num(w) =     10 at lev   14 pen,qcpen,cpen,cqcpen =  0.14523      0.14523      0.14523E-01  0.14523E-01
+ num(w) =     16 at lev   15 pen,qcpen,cpen,cqcpen =  0.25589      0.25589      0.15993E-01  0.15993E-01
+ num(w) =     21 at lev   16 pen,qcpen,cpen,cqcpen =  0.32187      0.32187      0.15327E-01  0.15327E-01
+ num(w) =     17 at lev   17 pen,qcpen,cpen,cqcpen =  0.18708      0.18708      0.11005E-01  0.11005E-01
+ num(w) =     13 at lev   18 pen,qcpen,cpen,cqcpen =  0.10109      0.10109      0.77763E-02  0.77762E-02
+ num(w) =     21 at lev   19 pen,qcpen,cpen,cqcpen =  0.30796      0.30796      0.14665E-01  0.14665E-01
+ num(w) =     11 at lev   20 pen,qcpen,cpen,cqcpen =  0.15237      0.15236      0.13851E-01  0.13851E-01
+ num(w) =     12 at lev   21 pen,qcpen,cpen,cqcpen =  0.18141      0.18141      0.15117E-01  0.15117E-01
+ num(w) =     18 at lev   22 pen,qcpen,cpen,cqcpen =  0.26070      0.26070      0.14483E-01  0.14483E-01
+ num(w) =     14 at lev   23 pen,qcpen,cpen,cqcpen =  0.24994      0.24994      0.17853E-01  0.17853E-01
+ num(w) =     18 at lev   24 pen,qcpen,cpen,cqcpen =  0.12027      0.12027      0.66819E-02  0.66818E-02
+ num(w) =     19 at lev   25 pen,qcpen,cpen,cqcpen =  0.14201      0.14201      0.74742E-02  0.74742E-02
+ num(w) =     23 at lev   26 pen,qcpen,cpen,cqcpen =  0.13389      0.13388      0.58211E-02  0.58210E-02
+ num(w) =     21 at lev   27 pen,qcpen,cpen,cqcpen =  0.71568E-01  0.71567E-01  0.34080E-02  0.34079E-02
+ num(w) =     46 at lev   28 pen,qcpen,cpen,cqcpen =  0.16767      0.16767      0.36451E-02  0.36450E-02
+ num(w) =     39 at lev   29 pen,qcpen,cpen,cqcpen =  0.13918      0.13918      0.35688E-02  0.35688E-02
+ num(w) =     31 at lev   30 pen,qcpen,cpen,cqcpen =  0.11856      0.11856      0.38244E-02  0.38244E-02
+ num(w) =     35 at lev   31 pen,qcpen,cpen,cqcpen =  0.12624      0.12624      0.36069E-02  0.36069E-02
+ num(w) =     28 at lev   32 pen,qcpen,cpen,cqcpen =  0.64868E-01  0.64867E-01  0.23167E-02  0.23167E-02
+ num(w) =     34 at lev   33 pen,qcpen,cpen,cqcpen =  0.10668      0.10668      0.31376E-02  0.31376E-02
+ num(w) =     41 at lev   34 pen,qcpen,cpen,cqcpen =  0.11845      0.11845      0.28890E-02  0.28890E-02
+ num(w) =     32 at lev   35 pen,qcpen,cpen,cqcpen =  0.74977E-01  0.74976E-01  0.23430E-02  0.23430E-02
+ num(w) =     27 at lev   36 pen,qcpen,cpen,cqcpen =  0.12649      0.12649      0.46849E-02  0.46848E-02
+ num(w) =     26 at lev   37 pen,qcpen,cpen,cqcpen =  0.17834      0.17834      0.68591E-02  0.68591E-02
+ num(w) =     11 at lev   38 pen,qcpen,cpen,cqcpen =  0.83907E-01  0.83906E-01  0.76279E-02  0.76278E-02
+ num(w) =      6 at lev   39 pen,qcpen,cpen,cqcpen =  0.18998      0.18998      0.31664E-01  0.31664E-01
+ num(w) =      8 at lev   40 pen,qcpen,cpen,cqcpen =  0.12436      0.12436      0.15545E-01  0.15545E-01
+ num(w) =      6 at lev   41 pen,qcpen,cpen,cqcpen =  0.22394      0.22394      0.37324E-01  0.37323E-01
+ num(w) =     33 at lev   42 pen,qcpen,cpen,cqcpen =  0.95135      0.95133      0.28829E-01  0.28828E-01
+ num(w) =     41 at lev   43 pen,qcpen,cpen,cqcpen =   2.1662       2.1662      0.52834E-01  0.52833E-01
+ num(w) =     61 at lev   44 pen,qcpen,cpen,cqcpen =   4.4693       4.4692      0.73267E-01  0.73266E-01
+ num(w) =      3 at lev   45 pen,qcpen,cpen,cqcpen =  0.43725      0.43724      0.14575      0.14575    
+ num(w) =      3 at lev   46 pen,qcpen,cpen,cqcpen =  0.15857      0.15857      0.52858E-01  0.52858E-01
+ num(w) =      3 at lev   47 pen,qcpen,cpen,cqcpen =  0.21108      0.21108      0.70359E-01  0.70359E-01
+ num(w) =      8 at lev   48 pen,qcpen,cpen,cqcpen =  0.71670      0.71670      0.89587E-01  0.89587E-01
+ num(w) =      2 at lev   49 pen,qcpen,cpen,cqcpen =  0.37979      0.37979      0.18990      0.18990    
+ num(w) =      3 at lev   50 pen,qcpen,cpen,cqcpen =  0.22646      0.22646      0.75487E-01  0.75487E-01
+ num(w) =      8 at lev   51 pen,qcpen,cpen,cqcpen =  0.46248      0.46248      0.57810E-01  0.57810E-01
+ num(w) =      8 at lev   52 pen,qcpen,cpen,cqcpen =  0.35155      0.35155      0.43944E-01  0.43944E-01
+ num(w) =      4 at lev   53 pen,qcpen,cpen,cqcpen =  0.28859      0.28859      0.72147E-01  0.72147E-01
+ num(w) =     13 at lev   54 pen,qcpen,cpen,cqcpen =   1.7508       1.7508      0.13468      0.13468    
+ num(w) =     10 at lev   55 pen,qcpen,cpen,cqcpen =   1.2908       1.2908      0.12908      0.12908    
+ num(w) =     18 at lev   56 pen,qcpen,cpen,cqcpen =   3.6323       3.6323      0.20179      0.20179    
+ num(w) =     15 at lev   57 pen,qcpen,cpen,cqcpen =   1.8881       1.8881      0.12587      0.12587    
+ num(w) =     15 at lev   58 pen,qcpen,cpen,cqcpen =   3.7720       3.7720      0.25146      0.25146    
+ num(w) =      6 at lev   59 pen,qcpen,cpen,cqcpen =   5.5269       5.5269      0.92115      0.92115    
+ num(w) =      0 at lev   60 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ number ssm/i winds that fail nonlinear qc =      0
+ number of  wind obs that failed gross test =     0 nonlin qc test =     0
+ number of     u obs =   1667 pen=  0.767973049031195245E+02 cpen=  0.460692E-01
+ number of     v obs =   1667 pen=  0.939176066998461039E+02 cpen=  0.563393E-01
+ type      uv jiter   2 nread    3942 nkeep    3942 num    3334
+ type      uv pen=  0.170714911602965628E+03 qcpen=  0.170638393425154533E+03 r=  0.102408     qcr=  0.102363    
+ type     spd jiter   2 nread       0 nkeep       0 num       0
+ type     spd pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    
+current vfit of wind data, ranges in m/s
+                              ptop  1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0   50.0     0.0
+     it     obs    type styp  pbot  1200.0 1000.0  900.0  800.0  600.0  400.0  300.0  250.0  200.0  150.0  100.0  2000.0
+----------------------------------------------------------------------------------------------------------------------------
+ o-g 03      uv     220 0000 count      14     19     16     28     25     20      5      9     14     20     37     259
+ o-g 03      uv     220 0000  bias   -0.03   0.01   0.08   0.00   0.06   0.17   0.15   0.25   0.45   0.41   0.03    0.10
+ o-g 03      uv     220 0000   rms    0.34   0.43   0.32   0.24   0.24   0.31   0.25   0.44   0.81   0.95   0.97    0.89
+ o-g 03      uv     220 0000  cpen    0.01   0.01   0.01   0.00   0.00   0.01   0.00   0.01   0.03   0.04   0.05    0.04
+ o-g 03      uv     220 0000 qcpen    0.01   0.01   0.01   0.00   0.00   0.01   0.00   0.01   0.03   0.04   0.05    0.04
+ o-g 03      uv     230 0000 count       0      0      0      0      0      0      1      2      0      0      0       3
+ o-g 03      uv     230 0000  bias    0.00   0.00   0.00   0.00   0.00   0.00  -0.57   0.06   0.00   0.00   0.00   -0.15
+ o-g 03      uv     230 0000   rms    0.00   0.00   0.00   0.00   0.00   0.00   0.66   0.42   0.00   0.00   0.00    0.52
+ o-g 03      uv     230 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.01   0.00   0.00   0.00   0.00    0.01
+ o-g 03      uv     230 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.01   0.00   0.00   0.00   0.00    0.01
+ o-g 03      uv     231 0000 count       2      8     10     26     15      0      0      3      0      0      0      64
+ o-g 03      uv     231 0000  bias    1.02  -0.26  -0.12   0.03   0.08   0.00   0.00   1.96   0.00   0.00   0.00    0.10
+ o-g 03      uv     231 0000   rms    2.04   0.71   0.25   0.08   0.12   0.00   0.00   2.25   0.00   0.00   0.00    0.67
+ o-g 03      uv     231 0000  cpen    0.14   0.02   0.00   0.00   0.00   0.00   0.00   0.14   0.00   0.00   0.00    0.01
+ o-g 03      uv     231 0000 qcpen    0.14   0.02   0.00   0.00   0.00   0.00   0.00   0.14   0.00   0.00   0.00    0.01
+ o-g 03      uv     233 0000 count      20    133     65    141    157     24      3    113      1      0      0     657
+ o-g 03      uv     233 0000  bias   -0.04  -0.04  -0.02   0.01   0.01   0.03   0.59   0.10  -1.34   0.00   0.00    0.01
+ o-g 03      uv     233 0000   rms    0.77   0.38   0.32   0.15   0.12   0.26   0.95   0.81   1.68   0.00   0.00    0.44
+ o-g 03      uv     233 0000  cpen    0.05   0.01   0.01   0.00   0.00   0.00   0.04   0.03   0.13   0.00   0.00    0.01
+ o-g 03      uv     233 0000 qcpen    0.05   0.01   0.01   0.00   0.00   0.00   0.04   0.03   0.13   0.00   0.00    0.01
+ o-g 03      uv     280 0000 count     219      0      0      0      0      0      0      0      0      0      0     219
+ o-g 03      uv     280 0000  bias    0.05   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.05
+ o-g 03      uv     280 0000   rms    0.59   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.59
+ o-g 03      uv     280 0000  cpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 03      uv     280 0000 qcpen    0.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.02
+ o-g 03      uv     289 0000 count     465      0      0      0      0      0      0      0      0      0      0     465
+ o-g 03      uv     289 0000  bias    0.14   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.14
+ o-g 03      uv     289 0000   rms    0.94   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.94
+ o-g 03      uv     289 0000  cpen    0.12   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.12
+ o-g 03      uv     289 0000 qcpen    0.12   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.12
+ o-g 03             all      count     720    160     91    195    197     44      9    127     15     20     37    1667
+ o-g 03             all       bias    0.11  -0.04  -0.01   0.01   0.02   0.09   0.21   0.15   0.33   0.41   0.03    0.07
+ o-g 03             all        rms    0.84   0.41   0.31   0.16   0.14   0.28   0.62   0.85   0.89   0.95   0.97    0.71
+ o-g 03             all       cpen    0.08   0.01   0.01   0.00   0.00   0.00   0.02   0.03   0.04   0.04   0.05    0.05
+ o-g 03             all      qcpen    0.08   0.01   0.01   0.00   0.00   0.00   0.02   0.03   0.04   0.04   0.05    0.05
+ o-g 03      uv rej 289 0000 count       2      0      0      0      0      0      0      0      0      0      0       2
+ o-g 03      uv rej 289 0000  bias   -1.77   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -1.77
+ o-g 03      uv rej 289 0000   rms    8.76   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    8.76
+ o-g 03      uv rej 289 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv rej 289 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03         rej all      count       2      0      0      0      0      0      0      0      0      0      0       2
+ o-g 03         rej all       bias   -1.77   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -1.77
+ o-g 03         rej all        rms    8.76   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    8.76
+ o-g 03         rej all       cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03         rej all      qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv mon 220 0000 count       0      0      0      0      0      0      0      0      0      0      0       5
+ o-g 03      uv mon 220 0000  bias    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   -6.51
+ o-g 03      uv mon 220 0000   rms    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    9.42
+ o-g 03      uv mon 220 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv mon 220 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv mon 231 0000 count       0      0      0      0      2      0      0      0      0      0      0       2
+ o-g 03      uv mon 231 0000  bias    0.00   0.00   0.00   0.00   0.17   0.00   0.00   0.00   0.00   0.00   0.00    0.17
+ o-g 03      uv mon 231 0000   rms    0.00   0.00   0.00   0.00   0.22   0.00   0.00   0.00   0.00   0.00   0.00    0.22
+ o-g 03      uv mon 231 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv mon 231 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv mon 233 0000 count       0      0      0      0      1      0      0      0      0      0      0       1
+ o-g 03      uv mon 233 0000  bias    0.00   0.00   0.00   0.00  -0.01   0.00   0.00   0.00   0.00   0.00   0.00   -0.01
+ o-g 03      uv mon 233 0000   rms    0.00   0.00   0.00   0.00   0.01   0.00   0.00   0.00   0.00   0.00   0.00    0.01
+ o-g 03      uv mon 233 0000  cpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv mon 233 0000 qcpen    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.00
+ o-g 03      uv mon 281 0000 count      66      0      0      0      0      0      0      0      0      0      0      66
+ o-g 03      uv mon 281 0000  bias    0.53   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.53
+ o-g 03      uv mon 281 0000   rms    1.14   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.14
+ o-g 03      uv mon 281 0000  cpen    0.15   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.15
+ o-g 03      uv mon 281 0000 qcpen    0.15   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.15
+ o-g 03      uv mon 284 0000 count       9      2      0      0      0      0      0      0      0      0      0      11
+ o-g 03      uv mon 284 0000  bias    0.65  -0.06   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.52
+ o-g 03      uv mon 284 0000   rms    1.29   1.01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.25
+ o-g 03      uv mon 284 0000  cpen    0.23   0.10   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.20
+ o-g 03      uv mon 284 0000 qcpen    0.23   0.10   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.20
+ o-g 03      uv mon 287 0000 count     207     10      0      0      0      0      0      0      0      0      0     217
+ o-g 03      uv mon 287 0000  bias    0.45  -1.28   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.37
+ o-g 03      uv mon 287 0000   rms    1.36   2.01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    1.40
+ o-g 03      uv mon 287 0000  cpen    0.20   0.31   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.21
+ o-g 03      uv mon 287 0000 qcpen    0.20   0.31   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.21
+ o-g 03         mon all      count     282     12      0      0      3      0      0      0      0      0      0     302
+ o-g 03         mon all       bias    0.47  -1.08   0.00   0.00   0.11   0.00   0.00   0.00   0.00   0.00   0.00    0.29
+ o-g 03         mon all        rms    1.31   1.88   0.00   0.00   0.18   0.00   0.00   0.00   0.00   0.00   0.00    1.79
+ o-g 03         mon all       cpen    0.19   0.28   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.19
+ o-g 03         mon all      qcpen    0.19   0.28   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00    0.19
+ number of  wind obs extrapolated above top sigma layer=       0
+           number extrapolated below bottom sigma layer=       7
+ num(w) =    707 at lev    1 upen,vpen,cupen,cvpen =   54.885       66.022      0.77631E-01  0.93384E-01
+ num(w) =      7 at lev    2 upen,vpen,cupen,cvpen =  0.19890      0.21809      0.28414E-01  0.31156E-01
+ num(w) =      9 at lev    3 upen,vpen,cupen,cvpen =  0.86509E-01  0.15150      0.96121E-02  0.16834E-01
+ num(w) =      4 at lev    4 upen,vpen,cupen,cvpen =  0.57483E-01  0.21951E-01  0.14371E-01  0.54876E-02
+ num(w) =      4 at lev    5 upen,vpen,cupen,cvpen =  0.33943      0.49164E-01  0.84857E-01  0.12291E-01
+ num(w) =     12 at lev    6 upen,vpen,cupen,cvpen =  0.81070E-01  0.10232      0.67558E-02  0.85267E-02
+ num(w) =      7 at lev    7 upen,vpen,cupen,cvpen =  0.40717      0.27701      0.58167E-01  0.39573E-01
+ num(w) =      8 at lev    8 upen,vpen,cupen,cvpen =  0.70637E-01  0.45005E-01  0.88297E-02  0.56256E-02
+ num(w) =      5 at lev    9 upen,vpen,cupen,cvpen =  0.11000      0.24256E-01  0.22000E-01  0.48511E-02
+ num(w) =     10 at lev   10 upen,vpen,cupen,cvpen =  0.70258E-01  0.74453E-01  0.70258E-02  0.74453E-02
+ num(w) =      9 at lev   11 upen,vpen,cupen,cvpen =  0.18904      0.11524      0.21004E-01  0.12804E-01
+ num(w) =     18 at lev   12 upen,vpen,cupen,cvpen =  0.24106      0.25319      0.13392E-01  0.14066E-01
+ num(w) =      9 at lev   13 upen,vpen,cupen,cvpen =  0.71565E-01  0.33254E-01  0.79516E-02  0.36949E-02
+ num(w) =     10 at lev   14 upen,vpen,cupen,cvpen =  0.62738E-01  0.59722E-01  0.62738E-02  0.59722E-02
+ num(w) =     16 at lev   15 upen,vpen,cupen,cvpen =  0.97560E-01  0.21673      0.60975E-02  0.13545E-01
+ num(w) =     21 at lev   16 upen,vpen,cupen,cvpen =  0.16263      0.21923      0.77445E-02  0.10439E-01
+ num(w) =     17 at lev   17 upen,vpen,cupen,cvpen =  0.96109E-01  0.83252E-01  0.56535E-02  0.48971E-02
+ num(w) =     13 at lev   18 upen,vpen,cupen,cvpen =  0.39224E-01  0.53225E-01  0.30172E-02  0.40942E-02
+ num(w) =     21 at lev   19 upen,vpen,cupen,cvpen =  0.11847      0.14677      0.56417E-02  0.69889E-02
+ num(w) =     11 at lev   20 upen,vpen,cupen,cvpen =  0.69439E-01  0.71753E-01  0.63126E-02  0.65230E-02
+ num(w) =     12 at lev   21 upen,vpen,cupen,cvpen =  0.49104E-01  0.11239      0.40920E-02  0.93658E-02
+ num(w) =     18 at lev   22 upen,vpen,cupen,cvpen =  0.96202E-01  0.16681      0.53445E-02  0.92672E-02
+ num(w) =     14 at lev   23 upen,vpen,cupen,cvpen =  0.84867E-01  0.16689      0.60619E-02  0.11921E-01
+ num(w) =     18 at lev   24 upen,vpen,cupen,cvpen =  0.64345E-01  0.60231E-01  0.35747E-02  0.33462E-02
+ num(w) =     19 at lev   25 upen,vpen,cupen,cvpen =  0.62297E-01  0.63670E-01  0.32788E-02  0.33511E-02
+ num(w) =     23 at lev   26 upen,vpen,cupen,cvpen =  0.41129E-01  0.73611E-01  0.17882E-02  0.32005E-02
+ num(w) =     21 at lev   27 upen,vpen,cupen,cvpen =  0.22961E-01  0.30261E-01  0.10934E-02  0.14410E-02
+ num(w) =     46 at lev   28 upen,vpen,cupen,cvpen =  0.76958E-01  0.63857E-01  0.16730E-02  0.13882E-02
+ num(w) =     39 at lev   29 upen,vpen,cupen,cvpen =  0.52331E-01  0.46073E-01  0.13418E-02  0.11814E-02
+ num(w) =     31 at lev   30 upen,vpen,cupen,cvpen =  0.60112E-01  0.30216E-01  0.19391E-02  0.97472E-03
+ num(w) =     35 at lev   31 upen,vpen,cupen,cvpen =  0.48438E-01  0.49330E-01  0.13840E-02  0.14094E-02
+ num(w) =     28 at lev   32 upen,vpen,cupen,cvpen =  0.32454E-01  0.27752E-01  0.11591E-02  0.99113E-03
+ num(w) =     34 at lev   33 upen,vpen,cupen,cvpen =  0.37763E-01  0.57528E-01  0.11107E-02  0.16920E-02
+ num(w) =     41 at lev   34 upen,vpen,cupen,cvpen =  0.68976E-01  0.44282E-01  0.16823E-02  0.10800E-02
+ num(w) =     32 at lev   35 upen,vpen,cupen,cvpen =  0.20783E-01  0.43005E-01  0.64947E-03  0.13439E-02
+ num(w) =     27 at lev   36 upen,vpen,cupen,cvpen =  0.56283E-01  0.68982E-01  0.20846E-02  0.25549E-02
+ num(w) =     26 at lev   37 upen,vpen,cupen,cvpen =  0.97766E-01  0.33934E-01  0.37602E-02  0.13052E-02
+ num(w) =     11 at lev   38 upen,vpen,cupen,cvpen =  0.46246E-02  0.70657E-01  0.42042E-03  0.64233E-02
+ num(w) =      6 at lev   39 upen,vpen,cupen,cvpen =  0.85956E-01  0.30019E-01  0.14326E-01  0.50032E-02
+ num(w) =      8 at lev   40 upen,vpen,cupen,cvpen =  0.75223E-01  0.14093E-01  0.94029E-02  0.17617E-02
+ num(w) =      6 at lev   41 upen,vpen,cupen,cvpen =  0.49986E-01  0.19028      0.83309E-02  0.31713E-01
+ num(w) =     33 at lev   42 upen,vpen,cupen,cvpen =  0.51117      0.40446      0.15490E-01  0.12256E-01
+ num(w) =     41 at lev   43 upen,vpen,cupen,cvpen =   1.4885      0.70663      0.36305E-01  0.17235E-01
+ num(w) =     61 at lev   44 upen,vpen,cupen,cvpen =   2.0989       2.4050      0.34408E-01  0.39426E-01
+ num(w) =      3 at lev   45 upen,vpen,cupen,cvpen =  0.12717      0.31811      0.42390E-01  0.10604    
+ num(w) =      3 at lev   46 upen,vpen,cupen,cvpen =  0.14530      0.86929E-02  0.48432E-01  0.28976E-02
+ num(w) =      3 at lev   47 upen,vpen,cupen,cvpen =  0.86448E-01  0.11370      0.28816E-01  0.37898E-01
+ num(w) =      8 at lev   48 upen,vpen,cupen,cvpen =  0.41334      0.34065      0.51667E-01  0.42581E-01
+ num(w) =      2 at lev   49 upen,vpen,cupen,cvpen =  0.18133      0.23114      0.90665E-01  0.11557    
+ num(w) =      3 at lev   50 upen,vpen,cupen,cvpen =  0.15246      0.58929E-01  0.50820E-01  0.19643E-01
+ num(w) =      8 at lev   51 upen,vpen,cupen,cvpen =  0.23547      0.15671      0.29433E-01  0.19589E-01
+ num(w) =      8 at lev   52 upen,vpen,cupen,cvpen =  0.22708      0.10689      0.28384E-01  0.13361E-01
+ num(w) =      4 at lev   53 upen,vpen,cupen,cvpen =  0.71375E-01  0.17642      0.17844E-01  0.44105E-01
+ num(w) =     13 at lev   54 upen,vpen,cupen,cvpen =  0.54036       1.2451      0.41566E-01  0.95781E-01
+ num(w) =     10 at lev   55 upen,vpen,cupen,cvpen =  0.55219      0.47381      0.55219E-01  0.47381E-01
+ num(w) =     18 at lev   56 upen,vpen,cupen,cvpen =  0.90697       2.4483      0.50387E-01  0.13602    
+ num(w) =     15 at lev   57 upen,vpen,cupen,cvpen =  0.59344       1.1236      0.39563E-01  0.74910E-01
+ num(w) =     15 at lev   58 upen,vpen,cupen,cvpen =   2.9690      0.66184      0.19794      0.44122E-01
+ num(w) =      6 at lev   59 upen,vpen,cupen,cvpen =   4.4995      0.56186      0.74992      0.93643E-01
+ num(w) =      0 at lev   60 upen,vpen,cupen,cvpen =   0.0000       0.0000       0.0000       0.0000    
+ num(w) =    707 at lev    1 pen,qcpen,cpen,cqcpen =   120.91       120.87      0.17102      0.17096    
+ num(w) =      7 at lev    2 pen,qcpen,cpen,cqcpen =  0.41699      0.41698      0.59570E-01  0.59569E-01
+ num(w) =      9 at lev    3 pen,qcpen,cpen,cqcpen =  0.23801      0.23801      0.26446E-01  0.26445E-01
+ num(w) =      4 at lev    4 pen,qcpen,cpen,cqcpen =  0.79434E-01  0.79433E-01  0.19858E-01  0.19858E-01
+ num(w) =      4 at lev    5 pen,qcpen,cpen,cqcpen =  0.38859      0.38859      0.97148E-01  0.97147E-01
+ num(w) =     12 at lev    6 pen,qcpen,cpen,cqcpen =  0.18339      0.18339      0.15283E-01  0.15282E-01
+ num(w) =      7 at lev    7 pen,qcpen,cpen,cqcpen =  0.68418      0.68417      0.97741E-01  0.97739E-01
+ num(w) =      8 at lev    8 pen,qcpen,cpen,cqcpen =  0.11564      0.11564      0.14455E-01  0.14455E-01
+ num(w) =      5 at lev    9 pen,qcpen,cpen,cqcpen =  0.13425      0.13425      0.26851E-01  0.26850E-01
+ num(w) =     10 at lev   10 pen,qcpen,cpen,cqcpen =  0.14471      0.14471      0.14471E-01  0.14471E-01
+ num(w) =      9 at lev   11 pen,qcpen,cpen,cqcpen =  0.30427      0.30427      0.33808E-01  0.33808E-01
+ num(w) =     18 at lev   12 pen,qcpen,cpen,cqcpen =  0.49425      0.49424      0.27458E-01  0.27458E-01
+ num(w) =      9 at lev   13 pen,qcpen,cpen,cqcpen =  0.10482      0.10482      0.11646E-01  0.11646E-01
+ num(w) =     10 at lev   14 pen,qcpen,cpen,cqcpen =  0.12246      0.12246      0.12246E-01  0.12246E-01
+ num(w) =     16 at lev   15 pen,qcpen,cpen,cqcpen =  0.31429      0.31428      0.19643E-01  0.19643E-01
+ num(w) =     21 at lev   16 pen,qcpen,cpen,cqcpen =  0.38186      0.38186      0.18184E-01  0.18184E-01
+ num(w) =     17 at lev   17 pen,qcpen,cpen,cqcpen =  0.17936      0.17936      0.10551E-01  0.10550E-01
+ num(w) =     13 at lev   18 pen,qcpen,cpen,cqcpen =  0.92449E-01  0.92447E-01  0.71114E-02  0.71113E-02
+ num(w) =     21 at lev   19 pen,qcpen,cpen,cqcpen =  0.26524      0.26524      0.12631E-01  0.12630E-01
+ num(w) =     11 at lev   20 pen,qcpen,cpen,cqcpen =  0.14119      0.14119      0.12836E-01  0.12835E-01
+ num(w) =     12 at lev   21 pen,qcpen,cpen,cqcpen =  0.16149      0.16149      0.13458E-01  0.13458E-01
+ num(w) =     18 at lev   22 pen,qcpen,cpen,cqcpen =  0.26301      0.26301      0.14612E-01  0.14612E-01
+ num(w) =     14 at lev   23 pen,qcpen,cpen,cqcpen =  0.25176      0.25175      0.17983E-01  0.17982E-01
+ num(w) =     18 at lev   24 pen,qcpen,cpen,cqcpen =  0.12458      0.12457      0.69209E-02  0.69208E-02
+ num(w) =     19 at lev   25 pen,qcpen,cpen,cqcpen =  0.12597      0.12597      0.66299E-02  0.66298E-02
+ num(w) =     23 at lev   26 pen,qcpen,cpen,cqcpen =  0.11474      0.11474      0.49887E-02  0.49886E-02
+ num(w) =     21 at lev   27 pen,qcpen,cpen,cqcpen =  0.53221E-01  0.53220E-01  0.25343E-02  0.25343E-02
+ num(w) =     46 at lev   28 pen,qcpen,cpen,cqcpen =  0.14082      0.14081      0.30612E-02  0.30612E-02
+ num(w) =     39 at lev   29 pen,qcpen,cpen,cqcpen =  0.98404E-01  0.98403E-01  0.25232E-02  0.25232E-02
+ num(w) =     31 at lev   30 pen,qcpen,cpen,cqcpen =  0.90328E-01  0.90327E-01  0.29138E-02  0.29138E-02
+ num(w) =     35 at lev   31 pen,qcpen,cpen,cqcpen =  0.97768E-01  0.97767E-01  0.27934E-02  0.27933E-02
+ num(w) =     28 at lev   32 pen,qcpen,cpen,cqcpen =  0.60206E-01  0.60205E-01  0.21502E-02  0.21502E-02
+ num(w) =     34 at lev   33 pen,qcpen,cpen,cqcpen =  0.95291E-01  0.95290E-01  0.28027E-02  0.28027E-02
+ num(w) =     41 at lev   34 pen,qcpen,cpen,cqcpen =  0.11326      0.11326      0.27624E-02  0.27623E-02
+ num(w) =     32 at lev   35 pen,qcpen,cpen,cqcpen =  0.63788E-01  0.63787E-01  0.19934E-02  0.19933E-02
+ num(w) =     27 at lev   36 pen,qcpen,cpen,cqcpen =  0.12527      0.12526      0.46395E-02  0.46394E-02
+ num(w) =     26 at lev   37 pen,qcpen,cpen,cqcpen =  0.13170      0.13170      0.50654E-02  0.50653E-02
+ num(w) =     11 at lev   38 pen,qcpen,cpen,cqcpen =  0.75281E-01  0.75280E-01  0.68437E-02  0.68436E-02
+ num(w) =      6 at lev   39 pen,qcpen,cpen,cqcpen =  0.11598      0.11597      0.19329E-01  0.19329E-01
+ num(w) =      8 at lev   40 pen,qcpen,cpen,cqcpen =  0.89316E-01  0.89316E-01  0.11165E-01  0.11164E-01
+ num(w) =      6 at lev   41 pen,qcpen,cpen,cqcpen =  0.24026      0.24026      0.40044E-01  0.40043E-01
+ num(w) =     33 at lev   42 pen,qcpen,cpen,cqcpen =  0.91562      0.91561      0.27746E-01  0.27746E-01
+ num(w) =     41 at lev   43 pen,qcpen,cpen,cqcpen =   2.1952       2.1951      0.53540E-01  0.53539E-01
+ num(w) =     61 at lev   44 pen,qcpen,cpen,cqcpen =   4.5039       4.5038      0.73834E-01  0.73833E-01
+ num(w) =      3 at lev   45 pen,qcpen,cpen,cqcpen =  0.44528      0.44527      0.14843      0.14842    
+ num(w) =      3 at lev   46 pen,qcpen,cpen,cqcpen =  0.15399      0.15399      0.51330E-01  0.51330E-01
+ num(w) =      3 at lev   47 pen,qcpen,cpen,cqcpen =  0.20014      0.20014      0.66715E-01  0.66715E-01
+ num(w) =      8 at lev   48 pen,qcpen,cpen,cqcpen =  0.75398      0.75398      0.94248E-01  0.94248E-01
+ num(w) =      2 at lev   49 pen,qcpen,cpen,cqcpen =  0.41247      0.41247      0.20624      0.20624    
+ num(w) =      3 at lev   50 pen,qcpen,cpen,cqcpen =  0.21139      0.21139      0.70463E-01  0.70463E-01
+ num(w) =      8 at lev   51 pen,qcpen,cpen,cqcpen =  0.39218      0.39218      0.49022E-01  0.49022E-01
+ num(w) =      8 at lev   52 pen,qcpen,cpen,cqcpen =  0.33396      0.33396      0.41745E-01  0.41745E-01
+ num(w) =      4 at lev   53 pen,qcpen,cpen,cqcpen =  0.24779      0.24779      0.61949E-01  0.61949E-01
+ num(w) =     13 at lev   54 pen,qcpen,cpen,cqcpen =   1.7855       1.7855      0.13735      0.13735    
+ num(w) =     10 at lev   55 pen,qcpen,cpen,cqcpen =   1.0260       1.0260      0.10260      0.10260    
+ num(w) =     18 at lev   56 pen,qcpen,cpen,cqcpen =   3.3553       3.3553      0.18641      0.18641    
+ num(w) =     15 at lev   57 pen,qcpen,cpen,cqcpen =   1.7171       1.7171      0.11447      0.11447    
+ num(w) =     15 at lev   58 pen,qcpen,cpen,cqcpen =   3.6309       3.6309      0.24206      0.24206    
+ num(w) =      6 at lev   59 pen,qcpen,cpen,cqcpen =   5.0614       5.0613      0.84356      0.84356    
+ num(w) =      0 at lev   60 pen,qcpen,cpen,cqcpen =   0.0000       0.0000       0.0000       0.0000    
+ number ssm/i winds that fail nonlinear qc =      0
+ number of  wind obs that failed gross test =     0 nonlin qc test =     0
+ number of     u obs =   1667 pen=  0.744431254913278053E+02 cpen=  0.446569E-01
+ number of     v obs =   1667 pen=  0.812243880036996018E+02 cpen=  0.487249E-01
+ type      uv jiter   3 nread    3942 nkeep    3942 num    3334
+ type      uv pen=  0.155667513495027407E+03 qcpen=  0.155630260231190249E+03 r=  0.933818E-01 qcr=  0.933595E-01
+ type     spd jiter   3 nread       0 nkeep       0 num       0
+ type     spd pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    

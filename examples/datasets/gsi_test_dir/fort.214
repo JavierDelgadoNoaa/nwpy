@@ -1,0 +1,27 @@
+current fit of surface pressure data, ranges in mb
+--------------------------------------------------
+ pressure levels (hPa)=   0.0 2000.0
+     it     obs    type stype    count      bias       rms      cpen     qcpen
+ o-g 01     tcp     112 0000         1   -9.1043    9.1043   97.9298   97.9298
+ o-g 01             all              1   -9.1043    9.1043   97.9298   97.9298
+ number of  psfc obs that failed gross test =     0 nonlin qc test =     0
+ type    psfc jiter   1 nread       1 nkeep       1 num       1
+ type    psfc pen=  0.979298397036446460E+02 qcpen=  0.979298397036446460E+02 r=   97.9298     qcr=   97.9298    
+current fit of surface pressure data, ranges in mb
+--------------------------------------------------
+ pressure levels (hPa)=   0.0 2000.0
+     it     obs    type stype    count      bias       rms      cpen     qcpen
+ o-g 02     tcp     112 0000         1   -7.4347    7.4347   65.3059   65.3059
+ o-g 02             all              1   -7.4347    7.4347   65.3059   65.3059
+ number of  psfc obs that failed gross test =     0 nonlin qc test =     0
+ type    psfc jiter   2 nread       1 nkeep       1 num       1
+ type    psfc pen=  0.653059194733088191E+02 qcpen=  0.653059194733088191E+02 r=   65.3059     qcr=   65.3059    
+current fit of surface pressure data, ranges in mb
+--------------------------------------------------
+ pressure levels (hPa)=   0.0 2000.0
+     it     obs    type stype    count      bias       rms      cpen     qcpen
+ o-g 03     tcp     112 0000         1   -7.4844    7.4844   66.1811   66.1811
+ o-g 03             all              1   -7.4844    7.4844   66.1811   66.1811
+ number of  psfc obs that failed gross test =     0 nonlin qc test =     0
+ type    psfc jiter   3 nread       1 nkeep       1 num       1
+ type    psfc pen=  0.661811335375037260E+02 qcpen=  0.661811335375037260E+02 r=   66.1811     qcr=   66.1811    

@@ -1,0 +1,12 @@
+ type    srw1 jiter   1 nread       0 nkeep       0 num       0
+ type    srw1 pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    
+ type    srw2 jiter   1 nread       0 nkeep       0 num       0
+ type    srw2 pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    
+ type    srw1 jiter   2 nread       0 nkeep       0 num       0
+ type    srw1 pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    
+ type    srw2 jiter   2 nread       0 nkeep       0 num       0
+ type    srw2 pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    
+ type    srw1 jiter   3 nread       0 nkeep       0 num       0
+ type    srw1 pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    
+ type    srw2 jiter   3 nread       0 nkeep       0 num       0
+ type    srw2 pen=  0.000000000000000000E+00 qcpen=  0.000000000000000000E+00 r=   0.00000     qcr=   0.00000    

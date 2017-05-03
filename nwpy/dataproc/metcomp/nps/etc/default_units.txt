@@ -1,0 +1,31 @@
+TT   :   K
+RH   :   %
+SPECHUMD   :   kg kg-1
+UU   :   m s-1 
+VV   :   m s-1 
+HGT   :   m
+PRESSURE   :   Pa
+PINT   :   Pa
+PSFC   :   Pa
+PMSL   :   Pa
+CLWMR  : kg kg-1
+SM000010   :   proprtn
+SM010040   :   proprtn
+SM040100   :   proprtn
+SM100200   :   proprtn
+SM010200   :   proprtn
+ST000010   :   K
+ST010040   :   K
+ST040100   :   K
+ST100200   :   K
+ST010200   :   K
+ST000010   :   K
+ST010040   :   K
+ST040100   :   K
+ST100200   :   K
+ST010200   :   K
+SEAICE   :   proprtn
+LANDSEA   :   proprtn
+SOILHGT   :   m
+SKINTEMP   :   K
+SNOW   :   kg m-2

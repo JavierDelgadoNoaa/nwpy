@@ -1,0 +1,285 @@
+OZINFO_READ:  jpch_oz=    272
+  1 sbuv6_n14            lev =    1 use = -1 pob =     0.240 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+  2 sbuv6_n14            lev =    2 use = -1 pob =     0.490 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+  3 sbuv6_n14            lev =    3 use = -1 pob =     0.980 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+  4 sbuv6_n14            lev =    4 use = -1 pob =     1.950 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+  5 sbuv6_n14            lev =    5 use = -1 pob =     3.900 gross =   2.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+  6 sbuv6_n14            lev =    6 use = -1 pob =     7.800 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+  7 sbuv6_n14            lev =    7 use = -1 pob =    15.600 gross =   5.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+  8 sbuv6_n14            lev =    8 use = -1 pob =    31.000 gross =   7.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+  9 sbuv6_n14            lev =    9 use = -1 pob =    62.000 gross =   7.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 10 sbuv6_n14            lev =   10 use = -1 pob =   125.000 gross =   5.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 11 sbuv6_n14            lev =   11 use = -1 pob =   250.000 gross =   3.000 error =   1.732 b_oz =  10.000 pg_oz =   0.000
+ 12 sbuv6_n14            lev =   12 use = -1 pob =  1000.000 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+ 13 sbuv6_n14            lev =   13 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+ 14 sbuv6_n16            lev =    1 use = -1 pob =     0.240 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 15 sbuv6_n16            lev =    2 use = -1 pob =     0.490 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 16 sbuv6_n16            lev =    3 use = -1 pob =     0.980 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 17 sbuv6_n16            lev =    4 use = -1 pob =     1.950 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 18 sbuv6_n16            lev =    5 use = -1 pob =     3.900 gross =   2.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 19 sbuv6_n16            lev =    6 use = -1 pob =     7.800 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+ 20 sbuv6_n16            lev =    7 use = -1 pob =    15.600 gross =   5.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 21 sbuv6_n16            lev =    8 use = -1 pob =    31.000 gross =   7.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 22 sbuv6_n16            lev =    9 use = -1 pob =    62.000 gross =   7.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 23 sbuv6_n16            lev =   10 use = -1 pob =   125.000 gross =   5.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 24 sbuv6_n16            lev =   11 use = -1 pob =   250.000 gross =   3.000 error =   1.732 b_oz =  10.000 pg_oz =   0.000
+ 25 sbuv6_n16            lev =   12 use = -1 pob =  1000.000 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+ 26 sbuv6_n16            lev =   13 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+ 27 sbuv6_n17            lev =    1 use = -1 pob =     0.240 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 28 sbuv6_n17            lev =    2 use = -1 pob =     0.490 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 29 sbuv6_n17            lev =    3 use = -1 pob =     0.980 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 30 sbuv6_n17            lev =    4 use = -1 pob =     1.950 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 31 sbuv6_n17            lev =    5 use = -1 pob =     3.900 gross =   2.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 32 sbuv6_n17            lev =    6 use = -1 pob =     7.800 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+ 33 sbuv6_n17            lev =    7 use = -1 pob =    15.600 gross =   5.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 34 sbuv6_n17            lev =    8 use = -1 pob =    31.000 gross =   7.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 35 sbuv6_n17            lev =    9 use = -1 pob =    62.000 gross =   7.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 36 sbuv6_n17            lev =   10 use = -1 pob =   125.000 gross =   5.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 37 sbuv6_n17            lev =   11 use = -1 pob =   250.000 gross =   3.000 error =   1.732 b_oz =  10.000 pg_oz =   0.000
+ 38 sbuv6_n17            lev =   12 use = -1 pob =  1000.000 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+ 39 sbuv6_n17            lev =   13 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+ 40 sbuv6_n18            lev =    1 use = -1 pob =     0.240 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 41 sbuv6_n18            lev =    2 use = -1 pob =     0.490 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 42 sbuv6_n18            lev =    3 use = -1 pob =     0.980 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 43 sbuv6_n18            lev =    4 use = -1 pob =     1.950 gross =   1.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 44 sbuv6_n18            lev =    5 use = -1 pob =     3.900 gross =   2.000 error =   1.000 b_oz =  10.000 pg_oz =   0.000
+ 45 sbuv6_n18            lev =    6 use = -1 pob =     7.800 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+ 46 sbuv6_n18            lev =    7 use = -1 pob =    15.600 gross =   5.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 47 sbuv6_n18            lev =    8 use = -1 pob =    31.000 gross =   7.000 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 48 sbuv6_n18            lev =    9 use = -1 pob =    62.000 gross =   7.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 49 sbuv6_n18            lev =   10 use = -1 pob =   125.000 gross =   5.000 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 50 sbuv6_n18            lev =   11 use = -1 pob =   250.000 gross =   3.000 error =   1.732 b_oz =  10.000 pg_oz =   0.000
+ 51 sbuv6_n18            lev =   12 use = -1 pob =  1000.000 gross =   3.000 error =   1.414 b_oz =  10.000 pg_oz =   0.000
+ 52 sbuv6_n18            lev =   13 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+ 53 sbuv8_n16            lev =    1 use = -1 pob =     0.100 gross =   1.000 error =   0.040 b_oz =  10.000 pg_oz =   0.000
+ 54 sbuv8_n16            lev =    2 use = -1 pob =     0.158 gross =   1.000 error =   0.020 b_oz =  10.000 pg_oz =   0.000
+ 55 sbuv8_n16            lev =    3 use = -1 pob =     0.251 gross =   1.000 error =   0.015 b_oz =  10.000 pg_oz =   0.000
+ 56 sbuv8_n16            lev =    4 use = -1 pob =     0.398 gross =   1.000 error =   0.030 b_oz =  10.000 pg_oz =   0.000
+ 57 sbuv8_n16            lev =    5 use = -1 pob =     0.631 gross =   1.000 error =   0.150 b_oz =  10.000 pg_oz =   0.000
+ 58 sbuv8_n16            lev =    6 use = -1 pob =     1.000 gross =   1.000 error =   0.050 b_oz =  10.000 pg_oz =   0.000
+ 59 sbuv8_n16            lev =    7 use = -1 pob =     1.580 gross =   1.000 error =   0.125 b_oz =  10.000 pg_oz =   0.000
+ 60 sbuv8_n16            lev =    8 use = -1 pob =     2.510 gross =   1.282 error =   0.200 b_oz =  10.000 pg_oz =   0.000
+ 61 sbuv8_n16            lev =    9 use = -1 pob =     3.980 gross =   2.051 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+ 62 sbuv8_n16            lev =   10 use = -1 pob =     6.310 gross =   2.641 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+ 63 sbuv8_n16            lev =   11 use = -1 pob =    10.000 gross =   3.590 error =   0.750 b_oz =  10.000 pg_oz =   0.000
+ 64 sbuv8_n16            lev =   12 use = -1 pob =    15.800 gross =   5.052 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 65 sbuv8_n16            lev =   13 use = -1 pob =    25.100 gross =   6.273 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 66 sbuv8_n16            lev =   14 use = -1 pob =    39.800 gross =   7.000 error =   1.423 b_oz =  10.000 pg_oz =   0.000
+ 67 sbuv8_n16            lev =   15 use = -1 pob =    63.100 gross =   6.940 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 68 sbuv8_n16            lev =   16 use = -1 pob =   100.000 gross =   5.752 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 69 sbuv8_n16            lev =   17 use = -1 pob =   158.000 gross =   4.422 error =   1.831 b_oz =  10.000 pg_oz =   0.000
+ 70 sbuv8_n16            lev =   18 use = -1 pob =   251.000 gross =   3.000 error =   1.730 b_oz =  10.000 pg_oz =   0.000
+ 71 sbuv8_n16            lev =   19 use = -1 pob =   398.000 gross =   3.000 error =   1.667 b_oz =  10.000 pg_oz =   0.000
+ 72 sbuv8_n16            lev =   20 use = -1 pob =   631.000 gross =   3.000 error =   1.567 b_oz =  10.000 pg_oz =   0.000
+ 73 sbuv8_n16            lev =   21 use = -1 pob =  1000.000 gross =   3.000 error =   1.408 b_oz =  10.000 pg_oz =   0.000
+ 74 sbuv8_n16            lev =   22 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+ 75 sbuv8_n17            lev =    1 use = -1 pob =     0.100 gross =   1.000 error =   0.040 b_oz =  10.000 pg_oz =   0.000
+ 76 sbuv8_n17            lev =    2 use = -1 pob =     0.158 gross =   1.000 error =   0.020 b_oz =  10.000 pg_oz =   0.000
+ 77 sbuv8_n17            lev =    3 use = -1 pob =     0.251 gross =   1.000 error =   0.015 b_oz =  10.000 pg_oz =   0.000
+ 78 sbuv8_n17            lev =    4 use = -1 pob =     0.398 gross =   1.000 error =   0.030 b_oz =  10.000 pg_oz =   0.000
+ 79 sbuv8_n17            lev =    5 use = -1 pob =     0.631 gross =   1.000 error =   0.150 b_oz =  10.000 pg_oz =   0.000
+ 80 sbuv8_n17            lev =    6 use =  1 pob =     1.000 gross =   1.000 error =   0.050 b_oz =  10.000 pg_oz =   0.000
+ 81 sbuv8_n17            lev =    7 use =  1 pob =     1.580 gross =   1.000 error =   0.125 b_oz =  10.000 pg_oz =   0.000
+ 82 sbuv8_n17            lev =    8 use =  1 pob =     2.510 gross =   1.282 error =   0.200 b_oz =  10.000 pg_oz =   0.000
+ 83 sbuv8_n17            lev =    9 use =  1 pob =     3.980 gross =   2.051 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+ 84 sbuv8_n17            lev =   10 use =  1 pob =     6.310 gross =   2.641 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+ 85 sbuv8_n17            lev =   11 use =  1 pob =    10.000 gross =   3.590 error =   0.750 b_oz =  10.000 pg_oz =   0.000
+ 86 sbuv8_n17            lev =   12 use =  1 pob =    15.800 gross =   5.052 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 87 sbuv8_n17            lev =   13 use =  1 pob =    25.100 gross =   6.273 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+ 88 sbuv8_n17            lev =   14 use =  1 pob =    39.800 gross =   7.000 error =   1.423 b_oz =  10.000 pg_oz =   0.000
+ 89 sbuv8_n17            lev =   15 use =  1 pob =    63.100 gross =   6.940 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 90 sbuv8_n17            lev =   16 use =  1 pob =   100.000 gross =   5.752 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+ 91 sbuv8_n17            lev =   17 use =  1 pob =   158.000 gross =   4.422 error =   1.831 b_oz =  10.000 pg_oz =   0.000
+ 92 sbuv8_n17            lev =   18 use =  1 pob =   251.000 gross =   3.000 error =   1.730 b_oz =  10.000 pg_oz =   0.000
+ 93 sbuv8_n17            lev =   19 use =  1 pob =   398.000 gross =   3.000 error =   1.667 b_oz =  10.000 pg_oz =   0.000
+ 94 sbuv8_n17            lev =   20 use =  1 pob =   631.000 gross =   3.000 error =   1.567 b_oz =  10.000 pg_oz =   0.000
+ 95 sbuv8_n17            lev =   21 use =  1 pob =  1000.000 gross =   3.000 error =   1.408 b_oz =  10.000 pg_oz =   0.000
+ 96 sbuv8_n17            lev =   22 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+ 97 sbuv8_n18            lev =    1 use = -1 pob =     0.100 gross =   1.000 error =   0.040 b_oz =  10.000 pg_oz =   0.000
+ 98 sbuv8_n18            lev =    2 use = -1 pob =     0.158 gross =   1.000 error =   0.020 b_oz =  10.000 pg_oz =   0.000
+ 99 sbuv8_n18            lev =    3 use = -1 pob =     0.251 gross =   1.000 error =   0.015 b_oz =  10.000 pg_oz =   0.000
+100 sbuv8_n18            lev =    4 use = -1 pob =     0.398 gross =   1.000 error =   0.030 b_oz =  10.000 pg_oz =   0.000
+101 sbuv8_n18            lev =    5 use = -1 pob =     0.631 gross =   1.000 error =   0.150 b_oz =  10.000 pg_oz =   0.000
+102 sbuv8_n18            lev =    6 use =  1 pob =     1.000 gross =   1.000 error =   0.050 b_oz =  10.000 pg_oz =   0.000
+103 sbuv8_n18            lev =    7 use =  1 pob =     1.580 gross =   1.000 error =   0.125 b_oz =  10.000 pg_oz =   0.000
+104 sbuv8_n18            lev =    8 use =  1 pob =     2.510 gross =   1.282 error =   0.200 b_oz =  10.000 pg_oz =   0.000
+105 sbuv8_n18            lev =    9 use =  1 pob =     3.980 gross =   2.051 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+106 sbuv8_n18            lev =   10 use =  1 pob =     6.310 gross =   2.641 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+107 sbuv8_n18            lev =   11 use =  1 pob =    10.000 gross =   3.590 error =   0.750 b_oz =  10.000 pg_oz =   0.000
+108 sbuv8_n18            lev =   12 use =  1 pob =    15.800 gross =   5.052 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+109 sbuv8_n18            lev =   13 use =  1 pob =    25.100 gross =   6.273 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+110 sbuv8_n18            lev =   14 use =  1 pob =    39.800 gross =   7.000 error =   1.423 b_oz =  10.000 pg_oz =   0.000
+111 sbuv8_n18            lev =   15 use =  1 pob =    63.100 gross =   6.940 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+112 sbuv8_n18            lev =   16 use =  1 pob =   100.000 gross =   5.752 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+113 sbuv8_n18            lev =   17 use =  1 pob =   158.000 gross =   4.422 error =   1.831 b_oz =  10.000 pg_oz =   0.000
+114 sbuv8_n18            lev =   18 use =  1 pob =   251.000 gross =   3.000 error =   1.730 b_oz =  10.000 pg_oz =   0.000
+115 sbuv8_n18            lev =   19 use =  1 pob =   398.000 gross =   3.000 error =   1.667 b_oz =  10.000 pg_oz =   0.000
+116 sbuv8_n18            lev =   20 use =  1 pob =   631.000 gross =   3.000 error =   1.567 b_oz =  10.000 pg_oz =   0.000
+117 sbuv8_n18            lev =   21 use =  1 pob =  1000.000 gross =   3.000 error =   1.408 b_oz =  10.000 pg_oz =   0.000
+118 sbuv8_n18            lev =   22 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+119 sbuv8_n19            lev =    1 use = -1 pob =     0.100 gross =   1.000 error =   0.040 b_oz =  10.000 pg_oz =   0.000
+120 sbuv8_n19            lev =    2 use = -1 pob =     0.158 gross =   1.000 error =   0.020 b_oz =  10.000 pg_oz =   0.000
+121 sbuv8_n19            lev =    3 use = -1 pob =     0.251 gross =   1.000 error =   0.015 b_oz =  10.000 pg_oz =   0.000
+122 sbuv8_n19            lev =    4 use = -1 pob =     0.398 gross =   1.000 error =   0.030 b_oz =  10.000 pg_oz =   0.000
+123 sbuv8_n19            lev =    5 use = -1 pob =     0.631 gross =   1.000 error =   0.150 b_oz =  10.000 pg_oz =   0.000
+124 sbuv8_n19            lev =    6 use =  1 pob =     1.000 gross =   1.000 error =   0.050 b_oz =  10.000 pg_oz =   0.000
+125 sbuv8_n19            lev =    7 use =  1 pob =     1.580 gross =   1.000 error =   0.125 b_oz =  10.000 pg_oz =   0.000
+126 sbuv8_n19            lev =    8 use =  1 pob =     2.510 gross =   1.282 error =   0.200 b_oz =  10.000 pg_oz =   0.000
+127 sbuv8_n19            lev =    9 use =  1 pob =     3.980 gross =   2.051 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+128 sbuv8_n19            lev =   10 use =  1 pob =     6.310 gross =   2.641 error =   0.500 b_oz =  10.000 pg_oz =   0.000
+129 sbuv8_n19            lev =   11 use =  1 pob =    10.000 gross =   3.590 error =   0.750 b_oz =  10.000 pg_oz =   0.000
+130 sbuv8_n19            lev =   12 use =  1 pob =    15.800 gross =   5.052 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+131 sbuv8_n19            lev =   13 use =  1 pob =    25.100 gross =   6.273 error =   1.225 b_oz =  10.000 pg_oz =   0.000
+132 sbuv8_n19            lev =   14 use =  1 pob =    39.800 gross =   7.000 error =   1.423 b_oz =  10.000 pg_oz =   0.000
+133 sbuv8_n19            lev =   15 use =  1 pob =    63.100 gross =   6.940 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+134 sbuv8_n19            lev =   16 use =  1 pob =   100.000 gross =   5.752 error =   1.871 b_oz =  10.000 pg_oz =   0.000
+135 sbuv8_n19            lev =   17 use =  1 pob =   158.000 gross =   4.422 error =   1.831 b_oz =  10.000 pg_oz =   0.000
+136 sbuv8_n19            lev =   18 use =  1 pob =   251.000 gross =   3.000 error =   1.730 b_oz =  10.000 pg_oz =   0.000
+137 sbuv8_n19            lev =   19 use =  1 pob =   398.000 gross =   3.000 error =   1.667 b_oz =  10.000 pg_oz =   0.000
+138 sbuv8_n19            lev =   20 use =  1 pob =   631.000 gross =   3.000 error =   1.567 b_oz =  10.000 pg_oz =   0.000
+139 sbuv8_n19            lev =   21 use =  1 pob =  1000.000 gross =   3.000 error =   1.408 b_oz =  10.000 pg_oz =   0.000
+140 sbuv8_n19            lev =   22 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+141 omi_aura             lev =    1 use =  1 pob =     0.000 gross =   6.000 error =   5.000 b_oz =  10.000 pg_oz =   0.000
+142 gome_metop-a         lev =    1 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+143 gome_metop-b         lev =    1 use = -1 pob =     0.000 gross =  12.000 error =   2.236 b_oz =  10.000 pg_oz =   0.000
+144 mls22_aura           lev =    1 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+145 mls22_aura           lev =    2 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+146 mls22_aura           lev =    3 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+147 mls22_aura           lev =    4 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+148 mls22_aura           lev =    5 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+149 mls22_aura           lev =    6 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+150 mls22_aura           lev =    7 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+151 mls22_aura           lev =    8 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+152 mls22_aura           lev =    9 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+153 mls22_aura           lev =   10 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+154 mls22_aura           lev =   11 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+155 mls22_aura           lev =   12 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+156 mls22_aura           lev =   13 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+157 mls22_aura           lev =   14 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+158 mls22_aura           lev =   15 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+159 mls22_aura           lev =   16 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+160 mls22_aura           lev =   17 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+161 mls22_aura           lev =   18 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+162 mls22_aura           lev =   19 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+163 mls22_aura           lev =   20 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+164 mls22_aura           lev =   21 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+165 mls22_aura           lev =   22 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+166 mls22_aura           lev =   23 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+167 mls22_aura           lev =   24 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+168 mls22_aura           lev =   25 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+169 mls22_aura           lev =   26 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+170 mls22_aura           lev =   27 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+171 mls22_aura           lev =   28 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+172 mls22_aura           lev =   29 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+173 mls22_aura           lev =   30 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+174 mls22_aura           lev =   31 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+175 mls22_aura           lev =   32 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+176 mls22_aura           lev =   33 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+177 mls22_aura           lev =   34 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+178 mls22_aura           lev =   35 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+179 mls22_aura           lev =   36 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+180 mls22_aura           lev =   37 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+181 mls20_aura           lev =    1 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+182 mls20_aura           lev =    2 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+183 mls20_aura           lev =    3 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+184 mls20_aura           lev =    4 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+185 mls20_aura           lev =    5 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+186 mls20_aura           lev =    6 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+187 mls20_aura           lev =    7 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+188 mls20_aura           lev =    8 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+189 mls20_aura           lev =    9 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+190 mls20_aura           lev =   10 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+191 mls20_aura           lev =   11 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+192 mls20_aura           lev =   12 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+193 mls20_aura           lev =   13 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+194 mls20_aura           lev =   14 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+195 mls20_aura           lev =   15 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+196 mls20_aura           lev =   16 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+197 mls20_aura           lev =   17 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+198 mls20_aura           lev =   18 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+199 mls20_aura           lev =   19 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+200 mls20_aura           lev =   20 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+201 mls20_aura           lev =   21 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+202 mls20_aura           lev =   22 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+203 mls20_aura           lev =   23 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+204 mls20_aura           lev =   24 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+205 mls20_aura           lev =   25 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+206 mls20_aura           lev =   26 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+207 mls20_aura           lev =   27 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+208 mls20_aura           lev =   28 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+209 mls20_aura           lev =   29 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+210 mls20_aura           lev =   30 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+211 mls20_aura           lev =   31 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+212 mls20_aura           lev =   32 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+213 mls20_aura           lev =   33 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+214 mls20_aura           lev =   34 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+215 mls20_aura           lev =   35 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+216 mls20_aura           lev =   36 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+217 mls20_aura           lev =   37 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+218 mls30_aura           lev =    1 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+219 mls30_aura           lev =    2 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+220 mls30_aura           lev =    3 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+221 mls30_aura           lev =    4 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+222 mls30_aura           lev =    5 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+223 mls30_aura           lev =    6 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+224 mls30_aura           lev =    7 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+225 mls30_aura           lev =    8 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+226 mls30_aura           lev =    9 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+227 mls30_aura           lev =   10 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+228 mls30_aura           lev =   11 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+229 mls30_aura           lev =   12 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+230 mls30_aura           lev =   13 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+231 mls30_aura           lev =   14 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+232 mls30_aura           lev =   15 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+233 mls30_aura           lev =   16 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+234 mls30_aura           lev =   17 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+235 mls30_aura           lev =   18 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+236 mls30_aura           lev =   19 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+237 mls30_aura           lev =   20 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+238 mls30_aura           lev =   21 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+239 mls30_aura           lev =   22 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+240 mls30_aura           lev =   23 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+241 mls30_aura           lev =   24 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+242 mls30_aura           lev =   25 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+243 mls30_aura           lev =   26 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+244 mls30_aura           lev =   27 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+245 mls30_aura           lev =   28 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+246 mls30_aura           lev =   29 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+247 mls30_aura           lev =   30 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+248 mls30_aura           lev =   31 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+249 mls30_aura           lev =   32 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+250 mls30_aura           lev =   33 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+251 mls30_aura           lev =   34 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+252 mls30_aura           lev =   35 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+253 mls30_aura           lev =   36 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+254 mls30_aura           lev =   37 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+255 mls30_aura           lev =   38 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+256 mls30_aura           lev =   39 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+257 mls30_aura           lev =   40 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+258 mls30_aura           lev =   41 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+259 mls30_aura           lev =   42 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+260 mls30_aura           lev =   43 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+261 mls30_aura           lev =   44 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+262 mls30_aura           lev =   45 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+263 mls30_aura           lev =   46 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+264 mls30_aura           lev =   47 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+265 mls30_aura           lev =   48 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+266 mls30_aura           lev =   49 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+267 mls30_aura           lev =   50 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+268 mls30_aura           lev =   51 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+269 mls30_aura           lev =   52 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+270 mls30_aura           lev =   53 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+271 mls30_aura           lev =   54 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+272 mls30_aura           lev =   55 use = -1 pob =   999.999 gross =   9.999 error =   9.999 b_oz =  10.000 pg_oz =   0.000
+OUTER ITERATION jiter=    1
+ozone total   penalty_all=   0.00000000000000000    
+ozone total qcpenalty_all=   0.00000000000000000    
+    it    sat        inst          # read    # keep   # assim penalty        cpen      qcpen        qcfail
+OUTER ITERATION jiter=    2
+ozone total   penalty_all=   0.00000000000000000    
+ozone total qcpenalty_all=   0.00000000000000000    
+    it    sat        inst          # read    # keep   # assim penalty        cpen      qcpen        qcfail
+OUTER ITERATION jiter=    3
+ozone total   penalty_all=   0.00000000000000000    
+ozone total qcpenalty_all=   0.00000000000000000    
+    it    sat        inst          # read    # keep   # assim penalty        cpen      qcpen        qcfail

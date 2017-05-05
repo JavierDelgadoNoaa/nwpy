@@ -20,3 +20,7 @@ python setup.py install [--prefix=/path/to/topdir]
 The stock input specification ("inspec") files are located in nwpy/io/specdata/conf
  -> Copy these somewhere to use them in apps that use the specdata library
 
+# DEPENDENCIES
+- For specdata to process Equations, the Equation package is needed:
+   https://github.com/alphaomega-technology/Equation
+

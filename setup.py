@@ -115,7 +115,8 @@ if __name__ == "__main__":
          #    (setup.py bdist will), so non-source files must be included here
          package_data = { "nwpy.io.metcomp.nps":["etc/*.txt"] },
          #recursive-include nwpy/io/metcomp/nps/lib/etc *txt
-
+         # https://github.com/alphaomega-technology/Equation
+         depends=["Equation"],
          include_package_data = True,
          )
          # ** UPDATE: (TODO)**

@@ -342,9 +342,11 @@ class SpecifiedForecastDataset(object):
         self._multivar_fields = {}
         for levType in self.level_types: self._multivar_fields[levType] = {}
 
-        if inspecsTopdir == '':
-            self._log.warn("inspecsTopdir not passed in. Setting to current dir")
-            inspecsTopdir = os.get_cwd()
+        if not inspecsTopdir or inspecsTopdir=='':
+            #inspecsTopdir = os.get_cwd()
+            inspecsTopdir = os.path.join(os.path.dirname(__file__), "conf", "inspec")
+            self._log.warn("inspecsTopdir not passed in. Setting to {0}"
+                           .format(inspecsTopdir))
         self.inputspec, self.inputspec_paths = self._set_inspec(inputspec_paths,
                                                                 inspecsTopdir)
 

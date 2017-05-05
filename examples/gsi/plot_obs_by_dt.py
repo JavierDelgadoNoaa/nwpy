@@ -15,7 +15,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import gca, savefig
-from nwpy.io.metcomp.gsi_objects import GsiRun
+from nwpy.dataproc.metcomp.gsi_objects import GsiRun
 from nwpy.viz.map.obs_plotter import plot_obs
 from nwpy.viz.map.bling import decorate_map
 from nwpy.dateutils import conversions

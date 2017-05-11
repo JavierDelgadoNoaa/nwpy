@@ -9,9 +9,11 @@ import os
 import logging as log
 import numpy as np
 import math
+from datetime import datetime, timedelta
+
 
 class ModelRun(object):
-    def __init__(self, path, duration=432000):
+    def __init__(self, path, duration=timedelta(hours=126)):
         '''
         Instantiate an ModelRun. This will set the parameters that are
         required for all derived types, which are the following:
@@ -31,6 +33,8 @@ class ModelRun(object):
         self.path = path
         if not os.path.exists(path):
             raise Exception("Invalid Path given: %s" %path)
+        if isinstance(duration, int):
+            duration = timedelta(duration)
         self._desired_duration = duration
 
         # Instantiate variables that must be present
@@ -48,7 +52,7 @@ class ModelRun(object):
             for domain number `dom_num' per compute task '''
         dom_num = int(dom_num)
         return int(math.ceil(
-            float(self.gridsize_we[dom_num]) /  self.nproc_x[dom_num])) 
+            float(self.gridsize_we[dom_num]) / self.nproc_x[dom_num])) 
     
     def get_y_tile_size(self, dom_num):
         ''' Max number of "tiles"/"subgrids" per compute task along the
@@ -70,9 +74,10 @@ class ModelRun(object):
         return d
     @property
     def forecast_duration(self):
-        ''' Forecast duration in seconds '''
-        timeDelta = self.end_date - self.start_date
-        return timeDelta.days * 3600 * 24 + timeDelta.seconds
+        ''' Forecast duration as datetime.timedelta'''
+        #import pdb ; pdb.set_trace()
+        return  self.end_date - self.start_date
+        #return timeDelta.days * 3600 * 24 + timeDelta.seconds
 
     @property
     def time_step(self):
@@ -82,7 +87,9 @@ class ModelRun(object):
     @property
     def num_compute_tasks(self):
         ''' Number of processes used for computation - nproc_x * nproc_y '''
-        return self.nproc_x * self.nproc_y
+        # TODO : This is not exactly right since there is overlap
+        #import pdb ; pdb.set_trace()
+        return sum( [x*y for x,y in zip(self.nproc_x,self.nproc_y)] )
 
     def add_scalability_datapoint_to_axes(self, ax, dom=None, forecast_duration=None, 
                                            x_axis='total_procs', **kwargs):
@@ -105,7 +112,7 @@ class ModelRun(object):
             y = self.execution_time
         
         if x_axis == 'total_procs':
-            x = self.nproc_x[dom] * self.nproc_y[dom]
+            x = self.num_compute_tasks()
         elif x_axis == 'nproc_x':
             x = self.nproc_x[dom]
         elif x_axis == 'nproc_y':

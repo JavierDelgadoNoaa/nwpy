@@ -59,7 +59,7 @@ class WrfRun(ModelRun):
                           data in WRF and the "Finished timestep ..." for NMMB
         filter_times - timing for writing the filter output 
     '''
-    def __init__(self, path, duration=432000):
+    def __init__(self, path, duration=timedelta(hours=126)):
         '''
         Instantiate a WrfRun. Does the standard instantiation of the 
         parent class as well as instantiation of parameters specific to WRF.
@@ -99,8 +99,10 @@ class WrfRun(ModelRun):
         override the end date accordingly.
         
         INPUT
+            * Contains various parameters read from the namelist
             - start_params : Dictionary with keys for 'start_year', 'start_month', 
-               'start_day', 'start_hour', (optional) 'start_minute', (optional) 'start_second' 
+               'start_day', 'start_hour', (optional) 'start_minute', 
+               (optional) 'start_second' 
             - end_params : Dictionary with keys for 'end_year', 'end_month', 
                'end_day', 'end_hour', 'end_minute', (optional) 'end_second' 
             - runtime_params : Dictionary with keys for  
@@ -127,13 +129,17 @@ class WrfRun(ModelRun):
                                    start_params['start_hour'],
                                    start_params['start_minute'],
                                    start_params['start_second'])
+        # Determine end_date and runtime. If a runtime is specified
+        # in namelist, WRF will use it. Otherwise, it will use
+        # the specified end_year/month/day/...
         specified_end_date = datetime(end_params['end_year'], 
                                    end_params['end_month'],
                                    end_params['end_day'],
                                    end_params['end_hour'],
                                    end_params['end_minute'],
                                    end_params['end_second'])
-        runtime = 0
+        #import pdb ; pdb.set_trace()
+        runtime = timedelta(0)
         if runtime_params.has_key('run_seconds'):
             runtime += runtime_params['run_seconds']
         if runtime_params.has_key('run_minutes'):
@@ -142,7 +148,7 @@ class WrfRun(ModelRun):
             runtime += runtime_params['run_hours'] * 3600
         if runtime_params.has_key('run_days'):
             runtime += runtime_params['run_days'] * 3600 * 24
-        if runtime == 0:
+        if runtime.total_seconds() == 0:
             runtime = specified_end_date - self.start_date
             #self.end_date = specified_end_date
         overriden_for_user = False
@@ -151,7 +157,7 @@ class WrfRun(ModelRun):
                      "to the constructor")
             runtime = self._desired_duration
             overriden_for_user = True
-        self.end_date = self.start_date + timedelta(seconds=runtime) 
+        self.end_date = self.start_date + runtime
         # sanity check/warn
         if (not overriden_for_user) and self.end_date != specified_end_date:
             log.warn("The date specified by the end_* parameters in the namelist"\
@@ -175,73 +181,104 @@ class WrfRun(ModelRun):
         run_time = {}
 
         with open(os.path.join(self.path,nml_file)) as nl:
-            for line in nl.readlines():
-                toks = [t.strip() for t in line.split("=")]
-                if len(toks) < 2: continue
-                param = toks[0]
-                values = [t.strip() for t in toks[1].strip().split(",")]
-                if values[-1] == '': values = values[:-1]
-                # Some parameters' values is a list of the number of domains.
-                # For those, we add their name:value to pv_list and set them
-                # later (when we know max_dom). For parameters
-                # whose values are of length one, set the value here.
-                if param == 'max_dom':
-                    self.num_domains = int(values[0])
-                    if len(values) != 1: raise Exception("Invalid value for max_dom")
-                elif param == 'time_step':
-                    assert len(values) == 1
-                    self._dt_sec = int(values[0])
-                elif param == 'time_step_fract_num':
-                    assert len(values) == 1
-                    self._dt_frac_num = int(values[0])
-                elif param == 'time_step_fract_den':
-                    assert len(values) == 1
-                    self._dt_frac_den = int(values[0])
-                # set the _start_(year|month|day|etc.) parameters
-                elif param.startswith('start_'):
-                    if len(values) > 1 and len(set(values)) != 1:
-                        raise Exception("All of the namelist values for %s"\
-                                       " should be the same." %param)
-                    start_time[param] = int(values[0])
-                # set the _end_year|month|day|etc. params
-                elif param.startswith('end_'):
-                    if len(values) > 1 and len(set(values)) != 1:
-                        raise Exception("All of the namelist values for %s"\
-                                       " should be the same." %param)
-                    end_time[param] = int(values[0])
-                elif param.startswith("run_"):
-                    assert len(values) == 1
-                    if len(values) > 1 and len(set(values)) != 1:
-                        raise Exception("All of the namelist values for %s"\
-                                       " should be the same." %param)
-                    run_time[param] = int(values[0])
-                # parameters whose values is a list of size max_dom
-                elif param in ('nproc_x', 'nproc_y', 'history_interval',
-                                'interval_seconds'):
-                    pv_list[param] = values
+            nml_lines = nl.readlines()
+        for line in nml_lines:
+            toks = [t.strip() for t in line.split("=")]
+            if len(toks) < 2: continue
+            param = toks[0]
+            values = [t.strip() for t in toks[1].strip().split(",")]
+            if values[-1] == '': values = values[:-1]
+            # Some parameters' values is a list of the number of domains.
+            # For those, we add their name:value to pv_list and set them
+            # later (when we know max_dom). For parameters
+            # whose values are of length one, set the value here.
+            if param == 'max_dom':
+                self.num_domains = int(values[0])
+                if len(values) != 1: raise Exception("Invalid value for max_dom")
+            # If parent_ids are unique, it is not multistorm
+            elif param == "parent_id":
+                parent_ids = [int(x) for x in values]
+                if parent_ids == list(set(parent_ids)):
+                    self.is_multistorm = False
+                else:
+                    self.is_multistorm = True
+            elif param == 'time_step':
+                assert len(values) == 1
+                self._dt_sec = int(values[0])
+            elif param == 'time_step_fract_num':
+                assert len(values) == 1
+                self._dt_frac_num = int(values[0])
+            elif param == 'time_step_fract_den':
+                assert len(values) == 1
+                self._dt_frac_den = int(values[0])
+            # set the _start_(year|month|day|etc.) parameters
+            elif param.startswith('start_'):
+                if len(values) > 1 and len(set(values)) != 1:
+                    raise Exception("All of the namelist values for %s"\
+                                   " should be the same." %param)
+                start_time[param] = int(values[0])
+            # set the _end_year|month|day|etc. params
+            elif param.startswith('end_'):
+                if len(values) > 1 and len(set(values)) != 1:
+                    raise Exception("All of the namelist values for %s"\
+                                   " should be the same." %param)
+                end_time[param] = int(values[0])
+            elif param.startswith("run_"):
+                assert len(values) == 1
+                if len(values) > 1 and len(set(values)) != 1:
+                    raise Exception("All of the namelist values for %s"\
+                                   " should be the same." %param)
+                run_time[param] = int(values[0])
+            # parameters whose values is a list of size max_dom
+            elif param in ('nproc_x', 'nproc_y', 'history_interval',
+                            'interval_seconds', "nest_pes_x", "nest_pes_y"):
+                pv_list[param] = values
 
             #nproc_x = [-1 for x in range(self.num_domains)]
             #nproc_y = [-1 for y in range(self.num_domains)]
 
-            for (param,values) in pv_list.iteritems():
-                if param == 'nproc_x':
-                    if len(values) > 1:
-                        raise Exception("nproc_x array not supported")
-                    if int(values[0]) > -1:
-                        log.debug("nproc_x was passed in namelist")
-                        self.nproc_x = int(values[0])
-                elif param == 'nproc_y':
-                    if len(values) > 1:
-                        raise Exception("nproc_y array not supported")
-                    if int(values[0]) > -1:
-                        log.debug("nproc_y was passed in namelist")
-                        self.nproc_y = [int(values[0])]
-                elif param == 'history_interval':
-                    # history_interval will be list with index corresponding
-                    # to domain number will be the value for that domain
-                    self.history_interval = [None] + [int(v) for v in values]
+        for (param,values) in pv_list.iteritems():
+            if param == 'nproc_x':
+                if self.is_multistorm:
+                    log.debug("Ignoring nproc_x for multistorm")
+                    if int(values[0]) > -1: 
+                        log.warn("Repeat: Ignoring nproc_x for multistorm")
+                    continue
+                if len(values) > 1:
+                    raise Exception("nproc_x array not supported")
+                if int(values[0]) > -1:
+                    log.debug("nproc_x was passed in namelist")
+                    self.nproc_x = [int(values[0])]
+            elif param == 'nproc_y':
+                if self.is_multistorm:
+                    log.debug("Ignoring nproc_y for multistorm")
+                    if int(values[0]) > -1: 
+                        log.warn("Repeat: Ignoring nproc_x for multistorm")
+                    continue
+                if len(values) > 1:
+                    raise Exception("nproc_y array not supported")
+                if int(values[0]) > -1:
+                    log.debug("nproc_y was passed in namelist")
+                    self.nproc_y = [int(values[0])]
+            elif param == 'history_interval':
+                # history_interval will be list with index corresponding
+                # to domain number will be the value for that domain
+                self.history_interval = [None] + [int(v) for v in values]
+            elif param == "nest_pes_x" and self.is_multistorm:
+                self.nproc_x = values[0:self.num_domains]
+                self.nproc_x = [int(x) for x in self.nproc_x]
+                log.debug("Setting nproc_x from nest_pes_x = {0}"
+                          .format(self.nproc_x))
+            elif param == "nest_pes_y" and self.is_multistorm:
+                self.nproc_y  = values[0:self.num_domains]
+                self.nproc_y = [int(y) for y in self.nproc_y]
+                log.debug("Setting nproc_y from nest_pes_y = {0}"
+                          .format(self.nproc_y))
 
-            self._set_start_and_end_dates(start_time, end_time, run_time)
+        #import pdb; pdb.set_trace()
+        self._set_start_and_end_dates(start_time, end_time, run_time)
+        # Now that we know num_domains, we can set self.parent_ids
+        self.parent_ids = parent_ids[0:self.num_domains]
 
     def _set_params_from_rsl_files(self):
 
@@ -266,12 +303,18 @@ class WrfRun(ModelRun):
         cumm_hourly_output_ctr = 0
         # variable to keep track of cummulative exchange times
         prev_cumm_exch_time = np.zeros(self.num_domains+1, dtype=np.float)
-        # variable to keep track of the current domain - for outputs that do
-        # not specify the domain in the output itself
-        currDom = 0
+        # variable to keep track of the current domain being reported in the
+        # hourly timing output, since they don't specify the domain in each line
+        curr_timer_dom = 0
+
+        if self.num_domains > 3:
+            log.warn("More than 3 domains...this has not been tested extensively."
+                      " Known caveats: (1) Timer information (e.g. exch_tim)"
+                      " is only up to domain 3"
+                     .format())
         # Begin long loop through RSL file
         for line in rsl_file.readlines():
-
+            
             toks = line.strip().split()
             #56 I/O server 2 is ready for operations.
             if toks[0:2] == ['I/O', 'server']:
@@ -311,13 +354,15 @@ class WrfRun(ModelRun):
                 # the domain counter (the output will be printed in a separate
                 # segment for each domain
                 #[ Verify for new HWRF versions]
-                currDom = currDom + 1
+                curr_timer_dom = curr_timer_dom + 1
             elif toks[0] == 'hifreq_tim=':
                 # This is the last timer printed in HWRF 3.5, so reset the domain
                 # counter.
                 #[ Verify for new HWRF versions]
-                if currDom == self.num_domains: 
-                    currDom = 0
+                #if currDom == self.num_domains: 
+                # For multistorm, hifreq timers are only printed for d01,d02,d03
+                if curr_timer_dom in (self.num_domains, 3):
+                    curr_timer_dom = 0
             elif toks[0] == 'exch_tim=':
                 # exch_tim=     0.083923 pct=  7.013%
                 # This is the commulative time of all halos (i.e. HALO_NMM_F + HALO_NMM_I + ...).
@@ -326,13 +371,13 @@ class WrfRun(ModelRun):
                 # allocating domains, med_after_solve_io, med_nest_move, etc. (see module_integrate)
                 #if cumm_hourly_output_ctr % self.num_domains == 0:
                 curr_cumm_exch_time = float(toks[1])
-                dt = curr_cumm_exch_time - prev_cumm_exch_time[currDom]
-                prev_cumm_exch_time[currDom] = curr_cumm_exch_time
-                self.halo_times[currDom].append(dt)
+                dt = curr_cumm_exch_time - prev_cumm_exch_time[curr_timer_dom]
+                prev_cumm_exch_time[curr_timer_dom] = curr_cumm_exch_time
+                self.halo_times[curr_timer_dom].append(dt)
             ####
             # End parsing of HWRF built-in timers
             #######
-
+            
 
             # Timing for main: time 2005-08-01_12:00:05 on domain   1:   30.89756
             # Note: timing for main includes all operations performed in module_integrate
@@ -343,13 +388,23 @@ class WrfRun(ModelRun):
             elif toks[0:3] == ['Timing', 'for', 'main:']:
                 domNum = int(toks[7][:-1])
                 currDuration = wrf_timestamp_to_datetime(toks[4]) - self.start_date
-                if currDuration > timedelta(seconds=self._desired_duration):
+                if currDuration > self._desired_duration:
                     # if we're over the desired duration passed in at 
                     # instantiation, there's no need to go further
                     desired_duration_lt_actual = True
                     break
                 self.integrate_times[domNum].append(float(toks[8]))
-            
+            # newer style of main timing log:
+            #  main: 2016-09-11_09:19:56 dom 3 <dP/dt>=5.022 hPa/3hr timing .03612 s
+            elif toks[0] == "main:" and toks[2] == "dom" and toks[6] == "timing":
+                domNum = int(toks[3])
+                currDuration = wrf_timestamp_to_datetime(toks[1]) - self.start_date
+                if currDuration > self._desired_duration:
+                    desired_duration_lt_actual = True
+                    break
+                self.integrate_times[domNum].append(float(toks[7]))
+
+            # Completo
             elif toks[3:6] == ['SUCCESS', 'COMPLETE', 'WRF']:
                 #d01 2005-08-09_00:00:00 wrf: SUCCESS COMPLETE WRF
                 # mark forecast as succeeded and update end_time
@@ -365,6 +420,7 @@ class WrfRun(ModelRun):
             # end loop thru rsl.out.0000 readlines()
             ####
 
+            
             # if nproc_x and nproc_y were not not set in namelist, get from RSL file
             if not 'nproc_x' in self.__dict__:
                 if toks[0:3] == ['Ntasks', 'in', 'X']:
@@ -373,6 +429,15 @@ class WrfRun(ModelRun):
                     if toks[7][-1] == ',': toks[3] = toks[3][0:-1]
                     self.nproc_x = int(toks[3])
                     self.nproc_y = int(toks[7])
+
+        # Set sibling doms' timers (i.e. d04=d02...)
+        for domNbr in range(4, self.num_domains+1):
+            # TODO : Generalize for more than 2 pairs of siblings
+            if domNbr in (4,6,8,10,12,14,16):
+                haloTime = self.halo_times[2]
+            elif domNbr in (5,7,9,11,13,15,17):
+                haloTime = self.halo_times[3]
+            self.halo_times[domNbr]  = haloTime
 
         #
         # Some debugging outputs that also serve as sanity checks
@@ -401,23 +466,41 @@ class WrfRun(ModelRun):
         #
         # sanity checks
         #
-        # gotta formulate this for multidom runs
-        print self.forecast_duration
+        # TODO gotta formulate this for multidom runs
+        #print self.forecast_duration
         #print self.integrate_times[1]
-        print len(self.integrate_times[1])
-        print len(self.halo_times[1])
-        assert len(self.integrate_times[1]) == self.forecast_duration / self.time_step
+        #print len(self.integrate_times[1])
+        #print len(self.halo_times[1])
+        #import pdb ; pdb.set_trace()
+        num_timesteps = self.forecast_duration.total_seconds() / self.time_step
+        if len(self.integrate_times[1]) != num_timesteps:
+            raise Exception("Num integrate logs {0} != num_timesteps {1}"
+                            .format(len(self.integrate_times[1]), num_timesteps))
         # for params that vary by dom number
         for domNum in range(1,self.num_domains+1):
-            assert len(self.hist_output_times[domNum]) == \
-                   self.forecast_duration / (self.history_interval[domNum] * 60) + 1
+            #import pdb ; pdb.set_trace()
+            expected_hist_outs = self.forecast_duration.total_seconds() \
+                                 / (self.history_interval[domNum] * 60) + 1
+            # TODO - This needs to be modified to account for auxhist files
+            #  with "wrfout" prefix in filename and/or with auxhistN_end 
+            # params. e.g. with BS HWRF there is hourly wrfout_d01 output
+            # for the first 9 hours and then 3 hourly
+            if  len(self.hist_output_times[domNum]) != expected_hist_outs:
+                #raise Exception("Num hist outs {0} != expected {1}"
+                #                .format(len(self.hist_output_times[domNum]), expected_hist_outs))
+                log.warn("Num hist outs {0} != expected {1}"
+                         .format(len(self.hist_output_times[domNum]), expected_hist_outs))
             # exch_tim et al are hardcoded to be printed every hour,
             # they print at the 0th hour, but not at the final forecast hour
             # so if self._desired_duration is lower than the actual forecast duration,
             # the value will be  one more than if it's the same as the actual duration
             # TODO: Make this better using the desired_duration_lt_actual var
-            assert ( len(self.halo_times[domNum]) == self.forecast_duration / 3600) \
-                or (len(self.halo_times[domNum]) == (self.forecast_duration / 3600) + 1)
+            expected_num_halos = self.forecast_duration.total_seconds() / 3600
+            if not ( len(self.halo_times[domNum]) == expected_num_halos) \
+                or (len(self.halo_times[domNum]) == expected_num_halos + 1):
+                raise Exception("Domain {0}: Num halos {1} != expected {2}"
+                         .format(domNum, len(self.halo_times[domNum]), 
+                                 expected_num_halos))
         # Ensure forecast succeeded
         if not desired_duration_lt_actual and not forecast_succeeded \
            and FAIL_IF_UNCONFIRMED_FORECAST:
@@ -428,8 +511,8 @@ class WrfRun(ModelRun):
        # now that we read the output, ensure the duration  passed in during
        # instantiation is not larger than the actual forecast duration
         if self._desired_duration > self.forecast_duration:
-            raise Exception("Desired duration %i exceeds actual forecast duration %i"
-                            %(self._desired_duration, self.forecast_duration))
+            raise Exception("Desired duration {0} exceeds actual forecast duration {1}"
+                            .format(self._desired_duration, self.forecast_duration))
 
 #
 # Utility functions

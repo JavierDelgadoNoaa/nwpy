@@ -7,7 +7,9 @@ matplotlib.use('Agg')
 from matplotlib.pyplot import plot, gca, figure, show, savefig, legend, tight_layout, xlim, bar
 import numpy as np
 import logging as log 
-from pycane.met_components.modelrun import ModelRun
+
+#from nwpy.dataproc.metcomp.model.modelrun import ModelRun
+
 
 '''
 This module contains utilities for creating plots based on ModelRun data. 
@@ -22,7 +24,7 @@ class ModelPerformancePlotter(object):
         y-axis metric(s) that you would like to plot. The chosen values will
         then be queried from the ModelRun objects passed to the add_datapoint
         method.
-     2. Add `Datapoint's to it using the add_datapoint object. Distinguish
+     2. Add `Datapoint's to it using the add_datapoint method. Distinguish
         different datasets using the 'label' attribute to this method. Each
         label will be assigned a different color/marker. If multiple y_axis_metric
         values are used, each will get a different color/marker.
@@ -189,7 +191,8 @@ class ModelPerformancePlotter(object):
                      marker=plotMarker,
                      linestyle='',
                      label=label+" "+yMetric) 
-        tight_layout(pad=1)
+        #import pdb ;pdb.set_trace()
+        tight_layout(pad=1) # error
         xlim(min([min(vals) for k,vals in self.x_vals.iteritems()]) - 5,
              max([max(vals) for k,vals in self.x_vals.iteritems()]) + 5)
 
